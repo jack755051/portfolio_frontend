@@ -43,6 +43,99 @@
     "title": "Works",
     "lead": "Independent side projects, published under my Sanring GitHub org."
   },
+  "experience": {
+    "title": "Experience",
+    "lead": "Recent work and training, most recent first.",
+    "active": "Current",
+    "projectsLabel": "Projects",
+    "projectsShowAll": "Show all ({count} more)",
+    "projectsCollapse": "Show less",
+    "list": [
+      {
+        "type": "work",
+        "company": "TPIsoftware",
+        "role": "Frontend Engineer",
+        "period": "2024.07 - Present",
+        "isActive": true,
+        "description": "Focused on frontend development for AI conversational products and enterprise management systems. Responsible for transforming complex AI logic into intuitive conversational interfaces and building scalable admin architectures.",
+        "projects": [
+          {
+            "title": "Systalk AdminHub",
+            "detail": "Key-management admin UI: permission flows, key lifecycle actions, and API-backed console screens."
+          },
+          {
+            "title": "Systalk.Audit",
+            "detail": "Audit console UI: filters, audit log tables, and detail views optimized for readability and throughput."
+          },
+          {
+            "title": "TransGlobe Life ICR POC",
+            "detail": "Insurance ICR proof-of-concept: conversational and admin surfaces around the AI workflow."
+          },
+          {
+            "title": "Feastogether Chatbot",
+            "detail": "Hospitality chatbot frontend: conversation UX, state presentation, and related ops settings UI."
+          },
+          {
+            "title": "YouBike Chatbot",
+            "detail": "Shared-mobility chatbot frontend supporting conversation flows and operational needs."
+          }
+        ],
+        "stack": ["Angular", "TypeScript", "Tailwind", "Ngrx", "RxJS", "Docker", "Systalk.Flow"]
+      },
+      {
+        "type": "work",
+        "company": "SYSTEX",
+        "role": "Frontend Engineer",
+        "period": "2024.04 - 2024.06",
+        "isActive": false,
+        "description": "Participated in the development of large-scale government pension systems, focusing on complex form logic processing and legacy system migration.",
+        "projects": [
+          {
+            "title": "Public School Teachers Retirement System",
+            "detail": "Large government form/workflow UI: complex validation, state transitions, and frontend work during legacy migration."
+          }
+        ],
+        "stack": ["Angular", "TypeScript", "Tailwind", "Ngrx"]
+      },
+      {
+        "type": "work",
+        "company": "HaMaStar",
+        "role": "Frontend Engineer",
+        "period": "2021.11 - 2024.03",
+        "isActive": false,
+        "description": "Served as the lead frontend developer, spanning e-book malls, government tenders, and system maintenance. Capable of maintaining multiple projects simultaneously and switching contexts quickly.",
+        "projects": [
+          {
+            "title": "Indigenous Knowledge System",
+            "detail": "Knowledge-content frontend: listing, search, and presentation, iterated against tender requirements."
+          },
+          {
+            "title": "Indigenous Housing Subsidy System",
+            "detail": "Subsidy workflow UI covering application/review forms and related process screens."
+          },
+          {
+            "title": "Taipei City Gazette",
+            "detail": "Public gazette site frontend: announcement lists, detail pages, and search-oriented reading UI."
+          },
+          {
+            "title": "E-book Systems",
+            "detail": "E-book mall and reading-related frontend across multiple client deployments and ongoing maintenance."
+          }
+        ],
+        "stack": ["Angular", "Ngrx", "TypeScript", "JavaScript"]
+      },
+      {
+        "type": "education",
+        "company": "Institute for Information Industry (III)",
+        "role": "Frontend Trainee",
+        "period": "2021.05 - 2021.10",
+        "isActive": false,
+        "description": "Established a solid foundation in web development through high-intensity training, covering HTML/CSS/JS core concepts and framework basics.",
+        "projects": [],
+        "stack": ["HTML/CSS", "JavaScript", "Vue.js Basics"]
+      }
+    ]
+  },
   "skills": {
     "title": "Skills",
     "lead": "Frontend-first — UI implementation, design systems, and maintainable component structure.",

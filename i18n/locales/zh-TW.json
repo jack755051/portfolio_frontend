@@ -43,6 +43,99 @@
     "title": "作品",
     "lead": "獨立開發的 side project，以 GitHub 組織 Sanring 名義發布。"
   },
+  "experience": {
+    "title": "學經歷",
+    "lead": "近期的工作與訓練經歷，由近到遠排列。",
+    "active": "在職中",
+    "projectsLabel": "參與專案",
+    "projectsShowAll": "顯示全部（另 {count} 項）",
+    "projectsCollapse": "收合",
+    "list": [
+      {
+        "type": "work",
+        "company": "昕力科技 (TPIsoftware)",
+        "role": "前端工程師",
+        "period": "2024.07 - 至今",
+        "isActive": true,
+        "description": "專注於 AI 對話產品與企業級管理系統的前端開發。負責將複雜的 AI 邏輯轉化為直觀的對話介面，並構建高擴展性的後台架構。",
+        "projects": [
+          {
+            "title": "Systalk AdminHub",
+            "detail": "金鑰管理平台前端：權限流程、金鑰生命週期操作介面，與後台 API 對接。"
+          },
+          {
+            "title": "Systalk.Audit",
+            "detail": "稽核系統介面：查詢條件、稽核紀錄列表與詳情檢視，強調可讀性與操作效率。"
+          },
+          {
+            "title": "全球人壽 ICR POC",
+            "detail": "保險相關對話／ICR 概念驗證：將 AI 流程收成可用的對話與管理畫面。"
+          },
+          {
+            "title": "饗賓餐旅 Chatbot",
+            "detail": "餐旅場景 chatbot 前端：對話流、狀態呈現與後台設定相關介面。"
+          },
+          {
+            "title": "微笑單車 Chatbot",
+            "detail": "共享運具場景 chatbot：對話體驗與營運端所需的前端支援。"
+          }
+        ],
+        "stack": ["Angular", "TypeScript", "Tailwind", "Ngrx", "RxJS", "Docker", "Systalk.Flow"]
+      },
+      {
+        "type": "work",
+        "company": "精誠資訊 (SYSTEX)",
+        "role": "前端工程師",
+        "period": "2024.04 - 2024.06",
+        "isActive": false,
+        "description": "參與政府大型退休撫卹系統開發，專注於複雜表單邏輯處理與舊系統移轉。",
+        "projects": [
+          {
+            "title": "全國公教人員退休撫卹系統",
+            "detail": "大型政府表單與流程介面：複雜欄位驗證、狀態切換，以及舊系統移轉期間的前端對接。"
+          }
+        ],
+        "stack": ["Angular", "TypeScript", "Tailwind", "Ngrx"]
+      },
+      {
+        "type": "work",
+        "company": "哈瑪星科技 (HaMaStar)",
+        "role": "前端工程師",
+        "period": "2021.11 - 2024.03",
+        "isActive": false,
+        "description": "擔任主力前端開發，跨足電子書商城、政府標案與系統維運。具備同時維護多個專案並快速切換 context 的能力。",
+        "projects": [
+          {
+            "title": "原住民族知識體系",
+            "detail": "知識內容相關前端：列表、檢索與內容呈現，配合標案需求迭代。"
+          },
+          {
+            "title": "原住民族住宅業務補助系統",
+            "detail": "補助業務系統介面：申請／審核流程相關畫面與表單邏輯。"
+          },
+          {
+            "title": "台北市公報網",
+            "detail": "公報資訊網站前端：公告列表、詳情與搜尋等閱讀向介面。"
+          },
+          {
+            "title": "電子書系統（三民／奇鼎／龍騰）",
+            "detail": "電子書商城與閱讀相關前端，跨多個客戶端維運與需求調整。"
+          }
+        ],
+        "stack": ["Angular", "Ngrx", "TypeScript", "JavaScript"]
+      },
+      {
+        "type": "education",
+        "company": "資策會 (III)",
+        "role": "前端培訓生",
+        "period": "2021.05 - 2021.10",
+        "isActive": false,
+        "description": "透過高強度的集訓，建立紮實的網頁開發基礎，包含 HTML/CSS/JS 核心觀念與框架入門。",
+        "projects": [],
+        "stack": ["HTML/CSS", "JavaScript", "Vue.js Basics"]
+      }
+    ]
+  },
   "skills": {
     "title": "技能",
     "lead": "以前端為主，偏重介面實作、設計系統與可維護的元件結構。",
