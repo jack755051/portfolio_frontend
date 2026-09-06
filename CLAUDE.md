@@ -8,9 +8,10 @@
 定義於 `app/assets/css/main.css`,分兩層:
 
 1. **色階層**(不隨 light/dark 變動,寫死在 `@theme inline`):
-   - `primary-50 ~ primary-950`:品牌主色,indigo 色相(oklch hue ≈ 265~281)
+   - `primary-50 ~ primary-950`:品牌主色,teal 色相(oklch hue ≈ 180~192),刻意避開常見 indigo/紫模板
    - `accent-50 ~ accent-950`:強調色,amber 色相(oklch hue ≈ 45~95),用於需要跟主色做對比的標籤/CTA
    - `gray-50 ~ gray-950`:中性灰階(neutral,chroma 0)
+   - 字體:與 [Sanring UI](https://ui.sanring.dev/) 對齊——`--font-sans` / `--font-display` 為 Ubuntu,`--font-mono` 為系統等寬棧(Cascadia / Fira Code)
    - 三者皆可直接當 Tailwind utility 用,例如 `bg-primary-500`、`text-accent-700`、`border-gray-200`
    - 要換品牌色只需改這一段的數值,下面語意層會自動跟著變
 
@@ -28,7 +29,7 @@
   | `caption` | 小標/輔助文字 | `text-sm text-muted-foreground` |
 - **色彩格式為 oklch**:採用 shadcn-vue 產生的預設格式,也是 Tailwind v4 內建色盤本身的格式——同一亮度數值在不同色相間感知亮度一致,適合做色階漸層。如需改用 hex,整批轉換即可,不影響架構。
 
-字體沿用內建的 Geist,字級不另建自訂 CSS 變數,直接用 Tailwind 既有字級對應:
+字體沿用 Ubuntu（與 Sanring UI 對齊）,字級不另建自訂 CSS 變數,直接用 Tailwind 既有字級對應:
 
 | 用途 | Tailwind class |
 |---|---|

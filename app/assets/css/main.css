@@ -1,6 +1,11 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600;700&display=swap');
-
+/*
+  ---break---
+*/
+/*
+  ---break---
+*/
 @import "tailwindcss";
 @import "tw-animate-css";
 @import "shadcn-vue/tailwind.css";
@@ -9,22 +14,20 @@
 
 /*
   靜態量級（不隨 light/dark 變動）：色階 50~950。
-  primary 取自 indigo、accent 取自 amber、gray 取自 neutral；
-  數值來自 Tailwind v4 內建色盤。換品牌色只改這一段，
-  下面語意層（--primary、--border...）都從這裡取值，不會各自寫死。
+  primary 取自 teal（避開常見 indigo/紫模板感）、accent 取自 amber、gray 取自 neutral。
 */
 @theme inline {
-    --color-primary-50: oklch(96.2% 0.018 272.314);
-    --color-primary-100: oklch(93% 0.034 272.788);
-    --color-primary-200: oklch(87% 0.065 274.039);
-    --color-primary-300: oklch(78.5% 0.115 274.713);
-    --color-primary-400: oklch(67.3% 0.182 276.935);
-    --color-primary-500: oklch(58.5% 0.233 277.117);
-    --color-primary-600: oklch(51.1% 0.262 276.966);
-    --color-primary-700: oklch(45.7% 0.24 277.023);
-    --color-primary-800: oklch(39.8% 0.195 277.366);
-    --color-primary-900: oklch(35.9% 0.144 278.697);
-    --color-primary-950: oklch(25.7% 0.09 281.288);
+    --color-primary-50: oklch(98.4% 0.014 180.72);
+    --color-primary-100: oklch(95.3% 0.051 180.801);
+    --color-primary-200: oklch(91% 0.096 180.426);
+    --color-primary-300: oklch(85.5% 0.138 181.071);
+    --color-primary-400: oklch(77.7% 0.152 181.912);
+    --color-primary-500: oklch(70.4% 0.14 182.503);
+    --color-primary-600: oklch(60% 0.118 184.704);
+    --color-primary-700: oklch(51.1% 0.096 186.391);
+    --color-primary-800: oklch(43.7% 0.078 188.216);
+    --color-primary-900: oklch(38.6% 0.063 188.416);
+    --color-primary-950: oklch(27.7% 0.046 192.524);
 
     --color-accent-50: oklch(98.7% 0.022 95.277);
     --color-accent-100: oklch(96.2% 0.059 95.617);
@@ -49,6 +52,7 @@
     --color-gray-800: oklch(26.9% 0 none);
     --color-gray-900: oklch(20.5% 0 none);
     --color-gray-950: oklch(14.5% 0 none);
+    --font-heading: var(--font-sans);
 }
 
 /*
@@ -65,7 +69,9 @@
 }
 
 @theme inline {
-    --font-sans: 'Geist Variable', sans-serif;
+    --font-sans: Ubuntu, ui-sans-serif, system-ui, -apple-system, sans-serif;
+    --font-mono: ui-monospace, 'Cascadia Code', 'Cascadia Mono', 'Fira Code', monospace;
+    --font-display: Ubuntu, ui-sans-serif, system-ui, sans-serif;
     --font-heading: var(--font-sans);
     --color-sidebar-ring: var(--sidebar-ring);
     --color-sidebar-border: var(--sidebar-border);
@@ -192,6 +198,14 @@
 @utility caption {
   @apply text-sm text-muted-foreground;
 }
+@utility display-name {
+  font-family: var(--font-display);
+  @apply text-5xl font-bold leading-[1.05] tracking-tight sm:text-6xl lg:text-7xl;
+}
+@utility meta-label {
+  font-family: var(--font-mono);
+  @apply text-xs font-medium tracking-[0.14em] uppercase;
+}
 
 @keyframes hero-in {
   from {
@@ -204,12 +218,52 @@
   }
 }
 
+@keyframes mark-draw {
+  from {
+    transform: scaleX(0);
+  }
+  to {
+    transform: scaleX(1);
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  html {
+    scrollbar-gutter: stable;
+  }
+  body {
+    @apply bg-background text-foreground font-sans antialiased;
+    background-image:
+      radial-gradient(ellipse 80% 50% at 0% -10%, color-mix(in oklch, var(--color-primary-400) 16%, transparent), transparent),
+      radial-gradient(ellipse 60% 40% at 100% 0%, color-mix(in oklch, var(--color-accent-400) 12%, transparent), transparent);
+    background-attachment: fixed;
+  }
+  body::before {
+    content: "";
+    pointer-events: none;
+    position: fixed;
+    inset: 0;
+    z-index: 50;
+    opacity: 0.035;
+    mix-blend-mode: multiply;
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  }
+  .dark body::before {
+    opacity: 0.06;
+    mix-blend-mode: overlay;
+  }
+}
+/*
+  ---break---
+*/
 @layer base {
   * {
     @apply border-border outline-ring/50;
     }
   body {
     @apply bg-background text-foreground;
-    @apply font-sans;
     }
 }
