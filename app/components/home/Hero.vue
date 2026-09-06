@@ -4,8 +4,8 @@ const { t } = useI18n()
 </script>
 
 <template>
-  <section class="relative isolate grid items-center gap-12 py-16 lg:grid-cols-[minmax(0,1.15fr)_minmax(0,0.85fr)] lg:gap-16 lg:py-24">
-    <div class="flex flex-col gap-8 sm:gap-10">
+  <section class="relative isolate grid items-center gap-10 py-16 lg:grid-cols-[minmax(0,0.9fr)_minmax(0,1.1fr)] lg:gap-12 lg:py-24">
+    <div class="flex min-w-0 flex-col gap-8 sm:gap-10">
       <div class="flex flex-col gap-6 motion-safe:animate-[hero-in_0.7s_ease-out_both]">
         <p class="meta-label text-primary">
           {{ t('home.role') }}
