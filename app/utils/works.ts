@@ -9,6 +9,7 @@ export const works: WorkItem[] = [
     href: 'https://ui.sanring.dev',
     external: true,
     tone: 'primary',
+    image: '/works/ui-sanring.png',
   },
   {
     slug: 'date-picker',

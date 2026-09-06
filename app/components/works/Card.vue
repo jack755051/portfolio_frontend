@@ -42,22 +42,20 @@ const toneClass = computed(() => {
     class="group grid aspect-[2/1] grid-cols-[minmax(0,0.95fr)_minmax(0,1.05fr)] overflow-hidden rounded-xl border border-border bg-card transition-colors hover:border-primary/40"
   >
     <!-- 左側縮圖 + 右側邊緣虛化 -->
-    <div class="relative min-h-0 overflow-hidden bg-muted">
+    <div class="relative min-h-0 overflow-hidden bg-card">
       <img
         v-if="work.image"
         :src="work.image"
         :alt="t(work.titleKey)"
-        class="absolute inset-0 size-full object-cover transition-transform duration-500 group-hover:scale-[1.03]"
-        style="mask-image: linear-gradient(to right, #000 0%, #000 58%, transparent 100%); -webkit-mask-image: linear-gradient(to right, #000 0%, #000 58%, transparent 100%);"
+        class="absolute inset-0 size-full object-cover object-left-top transition-transform duration-500 group-hover:scale-[1.03]"
       >
       <div
         v-else
         class="absolute inset-0 bg-gradient-to-br"
         :class="toneClass"
-        style="mask-image: linear-gradient(to right, #000 0%, #000 58%, transparent 100%); -webkit-mask-image: linear-gradient(to right, #000 0%, #000 58%, transparent 100%);"
         aria-hidden="true"
       />
-      <!-- 再疊一層往 card 的柔化，避免接縫生硬 -->
+      <!-- 往 card 背景色柔化，避免與右側文字區接縫生硬 -->
       <div
         aria-hidden="true"
         class="pointer-events-none absolute inset-y-0 right-0 w-1/2 bg-gradient-to-r from-transparent to-card"
