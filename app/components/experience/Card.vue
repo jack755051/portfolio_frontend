@@ -14,7 +14,7 @@ const props = defineProps<{
 
 const { t, rt } = useI18n()
 
-const icon = computed(() => (props.item.type === 'work' ? Briefcase : GraduationCap))
+const icon = computed(() => (rt(props.item.type) === 'work' ? Briefcase : GraduationCap))
 </script>
 
 <template>
