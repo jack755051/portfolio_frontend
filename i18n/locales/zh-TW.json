@@ -136,6 +136,23 @@
       }
     ]
   },
+  "error": {
+    "notFound": {
+      "title": "找不到頁面",
+      "description": "這個網址不存在，或內容已經被移走。"
+    },
+    "generic": {
+      "title": "出了一點問題",
+      "description": "暫時無法載入這個頁面，請稍後再試。"
+    },
+    "backHome": "回首頁"
+  },
+  "notes": {
+    "placeholder": "筆記頁建置中。"
+  },
+  "leetcode": {
+    "placeholder": "刷題頁建置中。"
+  },
   "skills": {
     "title": "技能",
     "lead": "以前端為主，偏重介面實作、設計系統與可維護的元件結構。",

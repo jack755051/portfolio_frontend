@@ -136,6 +136,23 @@
       }
     ]
   },
+  "error": {
+    "notFound": {
+      "title": "Page not found",
+      "description": "This URL doesn’t exist, or the content has been moved."
+    },
+    "generic": {
+      "title": "Something went wrong",
+      "description": "This page couldn’t be loaded. Please try again later."
+    },
+    "backHome": "Back home"
+  },
+  "notes": {
+    "placeholder": "Notes page coming soon."
+  },
+  "leetcode": {
+    "placeholder": "LeetCode page coming soon."
+  },
   "skills": {
     "title": "Skills",
     "lead": "Frontend-first — UI implementation, design systems, and maintainable component structure.",
