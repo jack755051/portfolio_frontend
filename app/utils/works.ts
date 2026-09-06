@@ -10,6 +10,7 @@ export const works: WorkItem[] = [
     external: true,
     tone: 'primary',
     image: '/works/ui-sanring.png',
+    stack: ['Angular', 'Design System', 'Primitives'],
   },
   {
     slug: 'date-picker',
@@ -18,6 +19,8 @@ export const works: WorkItem[] = [
     href: 'https://date-picker.sanring.dev/',
     external: true,
     tone: 'accent',
+    image: '/works/date-picker.png',
+    stack: ['Angular', 'Date Picker', 'Standalone'],
   },
   {
     slug: 'haul-sanring',
@@ -26,8 +29,11 @@ export const works: WorkItem[] = [
     href: 'https://haul.sanring.dev',
     external: true,
     tone: 'muted',
+    image: '/works/haul-sanring.png',
+    stack: ['Nuxt', 'Product UI', 'Logistics'],
   },
 ]
+
 
 /** 首頁精選：目前等同全部作品 */
 export const featuredWorks = works

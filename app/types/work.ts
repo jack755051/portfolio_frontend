@@ -7,6 +7,8 @@ export type WorkItem = {
   /** 縮圖路徑；沒有時用 tone 色塊佔位 */
   image?: string
   tone?: 'primary' | 'accent' | 'muted'
+  /** 作品卡右側技術標籤 */
+  stack?: string[]
 }
 
 /** @deprecated 使用 WorkItem */
