@@ -231,7 +231,16 @@
     "backHome": "Back home"
   },
   "notes": {
-    "placeholder": "Notes page coming soon."
+    "title": "Notes",
+    "lead": "Curated public notes, browsable by topic.",
+    "empty": "No notes in this category yet.",
+    "backToList": "Back to notes",
+    "categories": {
+      "all": "All",
+      "frontend": "Frontend",
+      "backend": "Backend",
+      "other": "Other"
+    }
   },
   "leetcode": {
     "placeholder": "LeetCode page coming soon."

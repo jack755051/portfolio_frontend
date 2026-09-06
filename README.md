@@ -26,6 +26,18 @@ pnpm build
 pnpm preview
 ```
 
+## 筆記同步（Obsidian）
+
+從 private vault [`obsidian_notes`](https://github.com/jack755051/obsidian_notes) 同步 `Vue/`、`C#/` 到 `content/notes/sync/`：
+
+```bash
+# 需已 gh auth login，且讀得到該 private repo
+pnpm sync:notes
+```
+
+排程：GitHub Actions `.github/workflows/sync-obsidian-notes.yml` 每 3 天跑一次。  
+請在 repo Secrets 設定 `OBSIDIAN_NOTES_TOKEN`（能讀 `obsidian_notes` 的 PAT；workflow 另需 write 本 repo 以 commit）。
+
 ## 頁面
 - `/` 首頁
 - `/skills` 技能展示

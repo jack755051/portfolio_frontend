@@ -7,14 +7,17 @@
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
+    "postinstall": "nuxt prepare",
+    "sync:notes": "bash scripts/sync-obsidian-notes.sh"
   },
   "dependencies": {
     "@lucide/vue": "^1.41.0",
+    "@nuxt/content": "^3.16.0",
     "@nuxtjs/color-mode": "^4.0.1",
     "@nuxtjs/i18n": "^10.6.0",
     "@tailwindcss/vite": "^4.3.3",
     "@vueuse/core": "^14.4.0",
+    "better-sqlite3": "^13.0.3",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
     "nuxt": "^4.5.2",

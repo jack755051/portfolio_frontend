@@ -231,7 +231,16 @@
     "backHome": "回首頁"
   },
   "notes": {
-    "placeholder": "筆記頁建置中。"
+    "title": "筆記",
+    "lead": "精選可公開的技術筆記，依主題分類瀏覽。",
+    "empty": "這個分類暫時沒有筆記。",
+    "backToList": "回筆記列表",
+    "categories": {
+      "all": "全部",
+      "frontend": "前端",
+      "backend": "後端",
+      "other": "其他"
+    }
   },
   "leetcode": {
     "placeholder": "刷題頁建置中。"

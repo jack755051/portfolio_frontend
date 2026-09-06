@@ -1,6 +1,21 @@
+<script setup lang="ts">
+const { t } = useI18n()
+
+const { data: notes } = await useAsyncData('notes-list', () =>
+  queryCollection('notes')
+    .order('date', 'DESC')
+    .all(),
+)
+
+useSeoMeta({
+  title: () => t('notes.title'),
+  description: () => t('notes.lead'),
+})
+</script>
+
 <template>
-  <div class="flex flex-col gap-2">
-    <h1 class="heading-1">{{ $t('nav.notes') }}</h1>
-    <p class="caption">{{ $t('notes.placeholder') }}</p>
+  <div>
+    <NotesIntro />
+    <NotesList :notes="notes ?? []" />
   </div>
 </template>

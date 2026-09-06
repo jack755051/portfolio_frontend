@@ -4,7 +4,7 @@ import tailwindcss from '@tailwindcss/vite'
 export default defineNuxtConfig({
   compatibilityDate: '2025-07-15',
   devtools: { enabled: true },
-  modules: ['@nuxtjs/i18n', '@nuxtjs/color-mode'],
+  modules: ['@nuxt/content', '@nuxtjs/i18n', '@nuxtjs/color-mode'],
   devServer: {
     port: 3030,
   },
