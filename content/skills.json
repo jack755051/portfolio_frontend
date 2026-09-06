@@ -1,0 +1,41 @@
+{
+  "focus": [
+    {
+      "id": "ui",
+      "titleKey": "skills.focus.ui.title",
+      "summaryKey": "skills.focus.ui.summary"
+    },
+    {
+      "id": "design-system",
+      "titleKey": "skills.focus.designSystem.title",
+      "summaryKey": "skills.focus.designSystem.summary"
+    },
+    {
+      "id": "architecture",
+      "titleKey": "skills.focus.architecture.title",
+      "summaryKey": "skills.focus.architecture.summary"
+    },
+    {
+      "id": "components",
+      "titleKey": "skills.focus.components.title",
+      "summaryKey": "skills.focus.components.summary"
+    }
+  ],
+  "groups": [
+    {
+      "id": "framework",
+      "titleKey": "skills.groups.framework",
+      "items": ["Nuxt", "Vue", "TypeScript", "Angular"]
+    },
+    {
+      "id": "ui",
+      "titleKey": "skills.groups.ui",
+      "items": ["Tailwind CSS", "shadcn-vue", "Reka UI", "CSS"]
+    },
+    {
+      "id": "tooling",
+      "titleKey": "skills.groups.tooling",
+      "items": ["Git", "Vite", "pnpm", "ESLint"]
+    }
+  ]
+}

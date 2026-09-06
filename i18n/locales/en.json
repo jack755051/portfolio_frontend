@@ -44,7 +44,33 @@
     "lead": "Independent side projects, published under my Sanring GitHub org."
   },
   "skills": {
-    "placeholder": "Skills page coming soon."
+    "title": "Skills",
+    "lead": "Frontend-first — UI implementation, design systems, and maintainable component structure.",
+    "focusHeading": "Focus",
+    "groupsHeading": "Stack",
+    "focus": {
+      "ui": {
+        "title": "UI implementation",
+        "summary": "Turning product needs into clear screens and interactions, with craft and speed."
+      },
+      "designSystem": {
+        "title": "Design systems",
+        "summary": "Tokens, components, and docs so UI stays consistent across pages and projects."
+      },
+      "architecture": {
+        "title": "Frontend architecture",
+        "summary": "Clean routing, state, and data flow that stay easy to evolve and collaborate on."
+      },
+      "components": {
+        "title": "Components & interaction",
+        "summary": "Reusable pieces, accessibility, and polish — including standalone modules like date pickers."
+      }
+    },
+    "groups": {
+      "framework": "Frameworks / languages",
+      "ui": "Styling / UI",
+      "tooling": "Tooling"
+    }
   },
   "locale": {
     "label": "Language",

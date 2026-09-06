@@ -44,7 +44,33 @@
     "lead": "獨立開發的 side project，以 GitHub 組織 Sanring 名義發布。"
   },
   "skills": {
-    "placeholder": "技能頁建置中。"
+    "title": "技能",
+    "lead": "以前端為主，偏重介面實作、設計系統與可維護的元件結構。",
+    "focusHeading": "核心能力",
+    "groupsHeading": "技術清單",
+    "focus": {
+      "ui": {
+        "title": "介面實作",
+        "summary": "把產品需求收成清楚的畫面與互動，兼顧細節與實作效率。"
+      },
+      "designSystem": {
+        "title": "設計系統",
+        "summary": "用 token、元件與文件，讓介面在多頁／多專案間保持一致。"
+      },
+      "architecture": {
+        "title": "前端架構",
+        "summary": "路由、狀態與資料流切得乾淨，方便長期迭代與協作。"
+      },
+      "components": {
+        "title": "元件與互動",
+        "summary": "可重用元件、無障礙與細節打磨，例如日期選擇等獨立模組。"
+      }
+    },
+    "groups": {
+      "framework": "框架／語言",
+      "ui": "樣式／UI",
+      "tooling": "工具"
+    }
   },
   "locale": {
     "label": "語言",
