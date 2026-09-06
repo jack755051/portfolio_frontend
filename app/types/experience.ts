@@ -1,8 +1,11 @@
 export type ExperienceType = 'work' | 'education'
 
+export type ExperienceProjectStatus = 'active' | 'done'
+
 export type ExperienceProject = {
   title: string
   detail: string
+  status: ExperienceProjectStatus
 }
 
 export type ExperienceItem = {

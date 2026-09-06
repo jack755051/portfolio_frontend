@@ -45,11 +45,14 @@
   },
   "experience": {
     "title": "Experience",
-    "lead": "Recent work and training, most recent first.",
     "active": "Current",
     "projectsLabel": "Projects",
-    "projectsShowAll": "Show all ({count} more)",
+    "projectsShowAll": "Show all",
     "projectsCollapse": "Show less",
+    "projectStatus": {
+      "active": "In progress",
+      "done": "Completed"
+    },
     "list": [
       {
         "type": "work",
@@ -61,23 +64,28 @@
         "projects": [
           {
             "title": "Systalk AdminHub",
-            "detail": "Key-management admin UI: permission flows, key lifecycle actions, and API-backed console screens."
+            "detail": "Key-management admin UI: permission flows, key lifecycle actions, and API-backed console screens.",
+            "status": "active"
           },
           {
             "title": "Systalk.Audit",
-            "detail": "Audit console UI: filters, audit log tables, and detail views optimized for readability and throughput."
+            "detail": "Audit console UI: filters, audit log tables, and detail views optimized for readability and throughput.",
+            "status": "active"
           },
           {
             "title": "TransGlobe Life ICR POC",
-            "detail": "Insurance ICR proof-of-concept: conversational and admin surfaces around the AI workflow."
+            "detail": "Insurance ICR proof-of-concept: conversational and admin surfaces around the AI workflow.",
+            "status": "done"
           },
           {
             "title": "Feastogether Chatbot",
-            "detail": "Hospitality chatbot frontend: conversation UX, state presentation, and related ops settings UI."
+            "detail": "Hospitality chatbot frontend: conversation UX, state presentation, and related ops settings UI.",
+            "status": "done"
           },
           {
             "title": "YouBike Chatbot",
-            "detail": "Shared-mobility chatbot frontend supporting conversation flows and operational needs."
+            "detail": "Shared-mobility chatbot frontend supporting conversation flows and operational needs.",
+            "status": "done"
           }
         ],
         "stack": ["Angular", "TypeScript", "Tailwind", "Ngrx", "RxJS", "Docker", "Systalk.Flow"]
@@ -92,7 +100,8 @@
         "projects": [
           {
             "title": "Public School Teachers Retirement System",
-            "detail": "Large government form/workflow UI: complex validation, state transitions, and frontend work during legacy migration."
+            "detail": "Large government form/workflow UI: complex validation, state transitions, and frontend work during legacy migration.",
+            "status": "done"
           }
         ],
         "stack": ["Angular", "TypeScript", "Tailwind", "Ngrx"]
@@ -107,19 +116,23 @@
         "projects": [
           {
             "title": "Indigenous Knowledge System",
-            "detail": "Knowledge-content frontend: listing, search, and presentation, iterated against tender requirements."
+            "detail": "Knowledge-content frontend: listing, search, and presentation, iterated against tender requirements.",
+            "status": "done"
           },
           {
             "title": "Indigenous Housing Subsidy System",
-            "detail": "Subsidy workflow UI covering application/review forms and related process screens."
+            "detail": "Subsidy workflow UI covering application/review forms and related process screens.",
+            "status": "done"
           },
           {
             "title": "Taipei City Gazette",
-            "detail": "Public gazette site frontend: announcement lists, detail pages, and search-oriented reading UI."
+            "detail": "Public gazette site frontend: announcement lists, detail pages, and search-oriented reading UI.",
+            "status": "done"
           },
           {
             "title": "E-book Systems",
-            "detail": "E-book mall and reading-related frontend across multiple client deployments and ongoing maintenance."
+            "detail": "E-book mall and reading-related frontend across multiple client deployments and ongoing maintenance.",
+            "status": "done"
           }
         ],
         "stack": ["Angular", "Ngrx", "TypeScript", "JavaScript"]

@@ -45,11 +45,14 @@
   },
   "experience": {
     "title": "學經歷",
-    "lead": "近期的工作與訓練經歷，由近到遠排列。",
     "active": "在職中",
     "projectsLabel": "參與專案",
-    "projectsShowAll": "顯示全部（另 {count} 項）",
+    "projectsShowAll": "顯示全部",
     "projectsCollapse": "收合",
+    "projectStatus": {
+      "active": "進行中",
+      "done": "已完成"
+    },
     "list": [
       {
         "type": "work",
@@ -61,23 +64,28 @@
         "projects": [
           {
             "title": "Systalk AdminHub",
-            "detail": "金鑰管理平台前端：權限流程、金鑰生命週期操作介面，與後台 API 對接。"
+            "detail": "金鑰管理平台前端：權限流程、金鑰生命週期操作介面，與後台 API 對接。",
+            "status": "active"
           },
           {
             "title": "Systalk.Audit",
-            "detail": "稽核系統介面：查詢條件、稽核紀錄列表與詳情檢視，強調可讀性與操作效率。"
+            "detail": "稽核系統介面：查詢條件、稽核紀錄列表與詳情檢視，強調可讀性與操作效率。",
+            "status": "active"
           },
           {
             "title": "全球人壽 ICR POC",
-            "detail": "保險相關對話／ICR 概念驗證：將 AI 流程收成可用的對話與管理畫面。"
+            "detail": "保險相關對話／ICR 概念驗證：將 AI 流程收成可用的對話與管理畫面。",
+            "status": "done"
           },
           {
             "title": "饗賓餐旅 Chatbot",
-            "detail": "餐旅場景 chatbot 前端：對話流、狀態呈現與後台設定相關介面。"
+            "detail": "餐旅場景 chatbot 前端：對話流、狀態呈現與後台設定相關介面。",
+            "status": "done"
           },
           {
             "title": "微笑單車 Chatbot",
-            "detail": "共享運具場景 chatbot：對話體驗與營運端所需的前端支援。"
+            "detail": "共享運具場景 chatbot：對話體驗與營運端所需的前端支援。",
+            "status": "done"
           }
         ],
         "stack": ["Angular", "TypeScript", "Tailwind", "Ngrx", "RxJS", "Docker", "Systalk.Flow"]
@@ -92,7 +100,8 @@
         "projects": [
           {
             "title": "全國公教人員退休撫卹系統",
-            "detail": "大型政府表單與流程介面：複雜欄位驗證、狀態切換，以及舊系統移轉期間的前端對接。"
+            "detail": "大型政府表單與流程介面：複雜欄位驗證、狀態切換，以及舊系統移轉期間的前端對接。",
+            "status": "done"
           }
         ],
         "stack": ["Angular", "TypeScript", "Tailwind", "Ngrx"]
@@ -107,19 +116,23 @@
         "projects": [
           {
             "title": "原住民族知識體系",
-            "detail": "知識內容相關前端：列表、檢索與內容呈現，配合標案需求迭代。"
+            "detail": "知識內容相關前端：列表、檢索與內容呈現，配合標案需求迭代。",
+            "status": "done"
           },
           {
             "title": "原住民族住宅業務補助系統",
-            "detail": "補助業務系統介面：申請／審核流程相關畫面與表單邏輯。"
+            "detail": "補助業務系統介面：申請／審核流程相關畫面與表單邏輯。",
+            "status": "done"
           },
           {
             "title": "台北市公報網",
-            "detail": "公報資訊網站前端：公告列表、詳情與搜尋等閱讀向介面。"
+            "detail": "公報資訊網站前端：公告列表、詳情與搜尋等閱讀向介面。",
+            "status": "done"
           },
           {
             "title": "電子書系統（三民／奇鼎／龍騰）",
-            "detail": "電子書商城與閱讀相關前端，跨多個客戶端維運與需求調整。"
+            "detail": "電子書商城與閱讀相關前端，跨多個客戶端維運與需求調整。",
+            "status": "done"
           }
         ],
         "stack": ["Angular", "Ngrx", "TypeScript", "JavaScript"]
