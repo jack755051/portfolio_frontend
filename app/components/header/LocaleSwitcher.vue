@@ -1,5 +1,5 @@
 <script setup lang="ts">
-const { locale, t } = useI18n()
+const { locale } = useI18n()
 const switchLocalePath = useSwitchLocalePath()
 
 const isEn = computed({
@@ -10,16 +10,26 @@ const isEn = computed({
     navigateTo(switchLocalePath(code))
   },
 })
+
+const label = computed(() => (isEn.value ? '繁' : 'EN'))
+const ariaLabel = computed(() =>
+  isEn.value ? 'Switch to Traditional Chinese' : 'Switch to English',
+)
 </script>
 
 <template>
-  <Toggle
-    v-model="isEn"
-    variant="outline"
-    size="sm"
-    class="size-7 rounded-full text-xs font-medium"
-    :aria-label="isEn ? t('locale.toZh') : t('locale.toEn')"
-  >
-    <span>{{ isEn ? t('locale.zh-TW') : t('locale.en') }}</span>
-  </Toggle>
+  <ClientOnly>
+    <Toggle
+      v-model="isEn"
+      variant="outline"
+      size="sm"
+      class="size-7 rounded-full text-xs font-medium"
+      :aria-label="ariaLabel"
+    >
+      <span>{{ label }}</span>
+    </Toggle>
+    <template #fallback>
+      <span class="inline-block size-7 rounded-full border border-border" />
+    </template>
+  </ClientOnly>
 </template>

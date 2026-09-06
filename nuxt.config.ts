@@ -27,11 +27,7 @@ export default defineNuxtConfig({
     defaultLocale: 'zh-TW',
     strategy: 'prefix_except_default',
     lazy: true,
-    detectBrowserLanguage: {
-      useCookie: true,
-      cookieKey: 'i18n_redirected',
-      redirectOn: 'root',
-    },
+    detectBrowserLanguage: false,
   },
   vite: {
     plugins: [tailwindcss()]
