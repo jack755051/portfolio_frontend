@@ -47,8 +47,12 @@
     "title": "Experience",
     "active": "Current",
     "projectsLabel": "Projects",
-    "projectsShowAll": "Show all",
+    "projectsShowAll": "Show more",
     "projectsCollapse": "Show less",
+    "projectsCollapseAll": "Collapse all",
+    "projectResponsibilities": "Responsibilities",
+    "projectStack": "Tech",
+    "projectOutcomes": "Outcomes",
     "projectStatus": {
       "active": "In progress",
       "done": "Completed"
@@ -64,28 +68,61 @@
         "projects": [
           {
             "title": "Systalk AdminHub",
-            "detail": "Key-management admin UI: permission flows, key lifecycle actions, and API-backed console screens.",
-            "status": "active"
+            "status": "active",
+            "summary": "Key-management admin console covering permissions and key lifecycle actions.",
+            "responsibilities": [
+              "Built permission flows and key-operation UI",
+              "Integrated backend APIs with clear loading and error states",
+              "Extended reusable form and table components from the design system"
+            ],
+            "stack": ["Angular", "TypeScript", "NgRx", "Tailwind", "RxJS"]
           },
           {
             "title": "Systalk.Audit",
-            "detail": "Audit console UI: filters, audit log tables, and detail views optimized for readability and throughput.",
-            "status": "active"
+            "status": "active",
+            "summary": "Audit console frontend for filtering, listing, and inspecting records.",
+            "responsibilities": [
+              "Implemented audit filters and result tables",
+              "Improved detail-view information hierarchy and readability",
+              "Handled pagination and loading interactions for large datasets"
+            ],
+            "stack": ["Angular", "TypeScript", "NgRx", "Tailwind"]
           },
           {
             "title": "TransGlobe Life ICR POC",
-            "detail": "Insurance ICR proof-of-concept: conversational and admin surfaces around the AI workflow.",
-            "status": "done"
+            "status": "done",
+            "summary": "Insurance ICR proof-of-concept turning AI flows into usable chat and admin screens.",
+            "responsibilities": [
+              "Built conversation flow and state presentation",
+              "Shipped admin/ops surfaces needed for the POC",
+              "Iterated quickly to validate interaction assumptions"
+            ],
+            "stack": ["Angular", "TypeScript", "RxJS"],
+            "outcomes": [
+              "Delivered a demo-ready POC UI to support follow-up discussions"
+            ]
           },
           {
             "title": "Feastogether Chatbot",
-            "detail": "Hospitality chatbot frontend: conversation UX, state presentation, and related ops settings UI.",
-            "status": "done"
+            "status": "done",
+            "summary": "Hospitality chatbot covering conversation UX and ops settings UI.",
+            "responsibilities": [
+              "Implemented conversation flow and live state UI",
+              "Built related backend settings screens",
+              "Aligned interaction pacing and copy with hospitality use cases"
+            ],
+            "stack": ["Angular", "TypeScript", "RxJS"]
           },
           {
             "title": "YouBike Chatbot",
-            "detail": "Shared-mobility chatbot frontend supporting conversation flows and operational needs.",
-            "status": "done"
+            "status": "done",
+            "summary": "Shared-mobility chatbot supporting conversation UX and operational frontend needs.",
+            "responsibilities": [
+              "Implemented conversation UI and flow states",
+              "Supported operational frontend screens",
+              "Tuned interaction details for the mobility context"
+            ],
+            "stack": ["Angular", "TypeScript", "RxJS"]
           }
         ],
         "stack": ["Angular", "TypeScript", "Tailwind", "Ngrx", "RxJS", "Docker", "Systalk.Flow"]
@@ -100,8 +137,14 @@
         "projects": [
           {
             "title": "Public School Teachers Retirement System",
-            "detail": "Large government form/workflow UI: complex validation, state transitions, and frontend work during legacy migration.",
-            "status": "done"
+            "status": "done",
+            "summary": "Large government form/workflow system with complex validation and state transitions.",
+            "responsibilities": [
+              "Implemented complex form validation and workflow states",
+              "Supported frontend integration during legacy migration",
+              "Adjusted UI logic quickly against process and policy changes"
+            ],
+            "stack": ["Angular", "TypeScript", "NgRx", "Tailwind"]
           }
         ],
         "stack": ["Angular", "TypeScript", "Tailwind", "Ngrx"]
@@ -116,23 +159,50 @@
         "projects": [
           {
             "title": "Indigenous Knowledge System",
-            "detail": "Knowledge-content frontend: listing, search, and presentation, iterated against tender requirements.",
-            "status": "done"
+            "status": "done",
+            "summary": "Knowledge-content platform frontend with listing, search, and presentation.",
+            "responsibilities": [
+              "Built content lists, search, and detail pages",
+              "Iterated information architecture against tender requirements",
+              "Handled cross-browser and performance issues in maintenance"
+            ],
+            "stack": ["Angular", "TypeScript", "NgRx"]
           },
           {
             "title": "Indigenous Housing Subsidy System",
-            "detail": "Subsidy workflow UI covering application/review forms and related process screens.",
-            "status": "done"
+            "status": "done",
+            "summary": "Subsidy workflow system covering application and review UI.",
+            "responsibilities": [
+              "Implemented application/review forms and process screens",
+              "Handled multi-step state and field dependencies",
+              "Aligned UI behavior with evolving business rules"
+            ],
+            "stack": ["Angular", "TypeScript", "NgRx"]
           },
           {
             "title": "Taipei City Gazette",
-            "detail": "Public gazette site frontend: announcement lists, detail pages, and search-oriented reading UI.",
-            "status": "done"
+            "status": "done",
+            "summary": "Public gazette site focused on reading, listing, and search.",
+            "responsibilities": [
+              "Built announcement lists, detail pages, and search UI",
+              "Improved reading-oriented hierarchy and layout",
+              "Adjusted publishing/presentation flows for agency needs"
+            ],
+            "stack": ["Angular", "TypeScript", "JavaScript"]
           },
           {
             "title": "E-book Systems",
-            "detail": "E-book mall and reading-related frontend across multiple client deployments and ongoing maintenance.",
-            "status": "done"
+            "status": "done",
+            "summary": "E-book mall and reading frontend across multiple client deployments.",
+            "responsibilities": [
+              "Maintained multi-client e-book mall interfaces",
+              "Adapted features and styling per brand requirements",
+              "Resolved frontend issues in reading and purchase flows"
+            ],
+            "stack": ["Angular", "TypeScript", "JavaScript", "NgRx"],
+            "outcomes": [
+              "Maintained multiple projects in parallel with fast context switching"
+            ]
           }
         ],
         "stack": ["Angular", "Ngrx", "TypeScript", "JavaScript"]

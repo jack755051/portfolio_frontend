@@ -47,8 +47,12 @@
     "title": "學經歷",
     "active": "在職中",
     "projectsLabel": "參與專案",
-    "projectsShowAll": "顯示全部",
+    "projectsShowAll": "顯示更多",
     "projectsCollapse": "收合",
+    "projectsCollapseAll": "合上全部",
+    "projectResponsibilities": "負責內容",
+    "projectStack": "技術",
+    "projectOutcomes": "成果",
     "projectStatus": {
       "active": "進行中",
       "done": "已完成"
@@ -64,28 +68,61 @@
         "projects": [
           {
             "title": "Systalk AdminHub",
-            "detail": "金鑰管理平台前端：權限流程、金鑰生命週期操作介面，與後台 API 對接。",
-            "status": "active"
+            "status": "active",
+            "summary": "金鑰管理後台，涵蓋權限與金鑰生命週期操作。",
+            "responsibilities": [
+              "實作權限流程與金鑰操作相關介面",
+              "對接後台 API，整理載入、錯誤與操作狀態",
+              "依設計系統擴充可重用表單與列表元件"
+            ],
+            "stack": ["Angular", "TypeScript", "NgRx", "Tailwind", "RxJS"]
           },
           {
             "title": "Systalk.Audit",
-            "detail": "稽核系統介面：查詢條件、稽核紀錄列表與詳情檢視，強調可讀性與操作效率。",
-            "status": "active"
+            "status": "active",
+            "summary": "稽核系統前端，支援查詢、列表與詳情檢視。",
+            "responsibilities": [
+              "實作稽核查詢條件與結果列表",
+              "優化紀錄詳情的資訊層級與可讀性",
+              "處理大量資料下的載入與分頁互動"
+            ],
+            "stack": ["Angular", "TypeScript", "NgRx", "Tailwind"]
           },
           {
             "title": "全球人壽 ICR POC",
-            "detail": "保險相關對話／ICR 概念驗證：將 AI 流程收成可用的對話與管理畫面。",
-            "status": "done"
+            "status": "done",
+            "summary": "保險 ICR 概念驗證，將 AI 流程收成可用的對話與管理畫面。",
+            "responsibilities": [
+              "實作對話流程與狀態呈現",
+              "串接 POC 所需的管理與操作介面",
+              "快速迭代驗證互動假設"
+            ],
+            "stack": ["Angular", "TypeScript", "RxJS"],
+            "outcomes": [
+              "完成可演示的 POC 介面，支援後續需求討論"
+            ]
           },
           {
             "title": "饗賓餐旅 Chatbot",
-            "detail": "餐旅場景 chatbot 前端：對話流、狀態呈現與後台設定相關介面。",
-            "status": "done"
+            "status": "done",
+            "summary": "餐旅場景 chatbot，涵蓋對話體驗與營運設定介面。",
+            "responsibilities": [
+              "實作對話流與即時狀態呈現",
+              "建置後台設定相關畫面",
+              "對齊餐旅場景的操作節奏與文案"
+            ],
+            "stack": ["Angular", "TypeScript", "RxJS"]
           },
           {
             "title": "微笑單車 Chatbot",
-            "detail": "共享運具場景 chatbot：對話體驗與營運端所需的前端支援。",
-            "status": "done"
+            "status": "done",
+            "summary": "共享運具 chatbot，支援對話體驗與營運端前端需求。",
+            "responsibilities": [
+              "實作對話介面與流程狀態",
+              "支援營運端所需的前端操作畫面",
+              "依場域需求調整互動細節"
+            ],
+            "stack": ["Angular", "TypeScript", "RxJS"]
           }
         ],
         "stack": ["Angular", "TypeScript", "Tailwind", "Ngrx", "RxJS", "Docker", "Systalk.Flow"]
@@ -100,8 +137,14 @@
         "projects": [
           {
             "title": "全國公教人員退休撫卹系統",
-            "detail": "大型政府表單與流程介面：複雜欄位驗證、狀態切換，以及舊系統移轉期間的前端對接。",
-            "status": "done"
+            "status": "done",
+            "summary": "大型政府表單與流程系統，涵蓋複雜驗證與狀態切換。",
+            "responsibilities": [
+              "實作複雜表單欄位驗證與流程狀態",
+              "參與舊系統移轉期間的前端對接",
+              "依法規／流程變更快速調整介面邏輯"
+            ],
+            "stack": ["Angular", "TypeScript", "NgRx", "Tailwind"]
           }
         ],
         "stack": ["Angular", "TypeScript", "Tailwind", "Ngrx"]
@@ -116,23 +159,50 @@
         "projects": [
           {
             "title": "原住民族知識體系",
-            "detail": "知識內容相關前端：列表、檢索與內容呈現，配合標案需求迭代。",
-            "status": "done"
+            "status": "done",
+            "summary": "知識內容平台前端，支援列表、檢索與內容呈現。",
+            "responsibilities": [
+              "實作內容列表、檢索與詳情頁",
+              "依標案需求迭代資訊架構與互動",
+              "維運期間處理跨瀏覽器與效能問題"
+            ],
+            "stack": ["Angular", "TypeScript", "NgRx"]
           },
           {
             "title": "原住民族住宅業務補助系統",
-            "detail": "補助業務系統介面：申請／審核流程相關畫面與表單邏輯。",
-            "status": "done"
+            "status": "done",
+            "summary": "補助業務系統，涵蓋申請與審核相關流程介面。",
+            "responsibilities": [
+              "實作申請／審核表單與流程畫面",
+              "處理多步驟狀態與欄位依賴",
+              "對接業務規則調整介面行為"
+            ],
+            "stack": ["Angular", "TypeScript", "NgRx"]
           },
           {
             "title": "台北市公報網",
-            "detail": "公報資訊網站前端：公告列表、詳情與搜尋等閱讀向介面。",
-            "status": "done"
+            "status": "done",
+            "summary": "公報資訊網站，著重公告閱讀、列表與搜尋。",
+            "responsibilities": [
+              "實作公告列表、詳情與搜尋介面",
+              "優化閱讀向的資訊層級與排版",
+              "配合機關需求調整發布與呈現流程"
+            ],
+            "stack": ["Angular", "TypeScript", "JavaScript"]
           },
           {
             "title": "電子書系統（三民／奇鼎／龍騰）",
-            "detail": "電子書商城與閱讀相關前端，跨多個客戶端維運與需求調整。",
-            "status": "done"
+            "status": "done",
+            "summary": "電子書商城與閱讀相關前端，服務多個客戶端。",
+            "responsibilities": [
+              "維運多客戶端電子書商城介面",
+              "依各品牌需求調整功能與樣式",
+              "處理閱讀與購買流程相關前端問題"
+            ],
+            "stack": ["Angular", "TypeScript", "JavaScript", "NgRx"],
+            "outcomes": [
+              "同時維護多專案並快速切換 context"
+            ]
           }
         ],
         "stack": ["Angular", "Ngrx", "TypeScript", "JavaScript"]

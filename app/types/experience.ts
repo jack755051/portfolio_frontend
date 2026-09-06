@@ -4,8 +4,15 @@ export type ExperienceProjectStatus = 'active' | 'done'
 
 export type ExperienceProject = {
   title: string
-  detail: string
   status: ExperienceProjectStatus
+  /** 專案一句定位 */
+  summary: string
+  /** 負責內容條列 */
+  responsibilities: string[]
+  /** 專案技術（可選） */
+  stack?: string[]
+  /** 成果／影響（可選） */
+  outcomes?: string[]
 }
 
 export type ExperienceItem = {
