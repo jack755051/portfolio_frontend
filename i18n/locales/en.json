@@ -11,33 +11,37 @@
   },
   "home": {
     "name": "Charlie",
-    "role": "Frontend Engineer · Sanring",
-    "lead": "Focused on UI and frontend architecture — turning complex flows into clear, maintainable interfaces, proven in real products.",
-    "focus": "Nuxt · Design systems · Components & interaction",
+    "role": "Frontend Engineer",
+    "lead": "I turn messy product flows into clear, maintainable interfaces — from design systems down to component craft.",
+    "focus": "Angular · Nuxt · Design Systems",
     "cta": {
       "works": "View works",
       "skills": "Skills"
     },
     "works": {
-      "heading": "Featured",
-      "subtitle": "A few projects that best represent recent work.",
+      "eyebrow": "Featured",
+      "heading": "Side projects",
+      "subtitle": "Independent builds, published under the Sanring org.",
       "viewAll": "All works",
+      "open": "View project",
+      "openExternal": "Visit site",
       "ui": {
-        "title": "ui.sanring.dev",
+        "title": "UI Playground",
         "summary": "UI components and design-system playground"
       },
       "datePicker": {
-        "title": "date-picker.sanring.dev",
+        "title": "Date Picker",
         "summary": "Standalone date picker component"
       },
       "haul": {
-        "title": "haul.sanring.dev",
+        "title": "Haul",
         "summary": "Product UI for logistics / haul workflows"
       }
     }
   },
   "works": {
-    "placeholder": "Works page coming soon."
+    "title": "Works",
+    "lead": "Independent side projects, published under my Sanring GitHub org."
   },
   "skills": {
     "placeholder": "Skills page coming soon."
