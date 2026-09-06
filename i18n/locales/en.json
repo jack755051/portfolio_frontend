@@ -1,0 +1,56 @@
+{
+  "brand": "Charlie",
+  "nav": {
+    "home": "Home",
+    "skills": "Skills",
+    "experience": "Experience",
+    "works": "Works",
+    "notes": "Notes",
+    "leetcode": "LeetCode",
+    "aria": "Main navigation"
+  },
+  "home": {
+    "name": "Charlie",
+    "role": "Frontend Engineer · Sanring",
+    "lead": "Focused on UI and frontend architecture — turning complex flows into clear, maintainable interfaces, proven in real products.",
+    "focus": "Nuxt · Design systems · Components & interaction",
+    "cta": {
+      "works": "View works",
+      "skills": "Skills"
+    },
+    "works": {
+      "heading": "Featured",
+      "subtitle": "A few projects that best represent recent work.",
+      "viewAll": "All works",
+      "ui": {
+        "title": "ui.sanring.dev",
+        "summary": "UI components and design-system playground"
+      },
+      "datePicker": {
+        "title": "date-picker.sanring.dev",
+        "summary": "Standalone date picker component"
+      },
+      "haul": {
+        "title": "haul.sanring.dev",
+        "summary": "Product UI for logistics / haul workflows"
+      }
+    }
+  },
+  "works": {
+    "placeholder": "Works page coming soon."
+  },
+  "skills": {
+    "placeholder": "Skills page coming soon."
+  },
+  "locale": {
+    "label": "Language",
+    "zh-TW": "繁",
+    "en": "EN",
+    "toZh": "Switch to Traditional Chinese",
+    "toEn": "Switch to English"
+  },
+  "theme": {
+    "toDark": "Switch to dark mode",
+    "toLight": "Switch to light mode"
+  }
+}

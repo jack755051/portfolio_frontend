@@ -1,0 +1,56 @@
+{
+  "brand": "Charlie",
+  "nav": {
+    "home": "首頁",
+    "skills": "技能",
+    "experience": "學經歷",
+    "works": "作品",
+    "notes": "筆記",
+    "leetcode": "刷題",
+    "aria": "主要導覽"
+  },
+  "home": {
+    "name": "Charlie",
+    "role": "前端工程師 · Sanring",
+    "lead": "專注使用者介面與前端架構——把複雜流程收成清楚、好維護的介面，並用實際產品驗證。",
+    "focus": "Nuxt · 設計系統 · 元件與互動",
+    "cta": {
+      "works": "看作品",
+      "skills": "技能一覽"
+    },
+    "works": {
+      "heading": "精選作品",
+      "subtitle": "近期較具代表性的專案。",
+      "viewAll": "全部作品",
+      "ui": {
+        "title": "ui.sanring.dev",
+        "summary": "UI 元件與設計系統實驗場"
+      },
+      "datePicker": {
+        "title": "date-picker.sanring.dev",
+        "summary": "獨立日期選擇器元件"
+      },
+      "haul": {
+        "title": "haul.sanring.dev",
+        "summary": "物流／載運相關產品介面"
+      }
+    }
+  },
+  "works": {
+    "placeholder": "作品列表建置中。"
+  },
+  "skills": {
+    "placeholder": "技能頁建置中。"
+  },
+  "locale": {
+    "label": "語言",
+    "zh-TW": "繁",
+    "en": "EN",
+    "toZh": "切換為繁體中文",
+    "toEn": "切換為英文"
+  },
+  "theme": {
+    "toDark": "切換為深色模式",
+    "toLight": "切換為淺色模式"
+  }
+}
