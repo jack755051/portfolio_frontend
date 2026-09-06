@@ -155,31 +155,58 @@
   },
   "skills": {
     "title": "技能",
-    "lead": "以前端為主，偏重介面實作、設計系統與可維護的元件結構。",
+    "lead": "從 React 入門，因工作深耕 Angular，再轉向 Vue 生態系；同時接觸後端與部署，讓前後端協作更順暢。",
     "focusHeading": "核心能力",
+    "focusEyebrow": "Focus",
     "groupsHeading": "技術清單",
+    "groupsEyebrow": "Stack",
     "focus": {
       "ui": {
         "title": "介面實作",
-        "summary": "把產品需求收成清楚的畫面與互動，兼顧細節與實作效率。"
+        "subtitle": "Interface Craft",
+        "summary": "跨 React、Angular、Vue 3／Nuxt 生態系，把產品需求收成清楚的畫面與互動。"
       },
       "designSystem": {
         "title": "設計系統",
+        "subtitle": "Design Systems",
         "summary": "用 token、元件與文件，讓介面在多頁／多專案間保持一致。"
       },
       "architecture": {
         "title": "前端架構",
-        "summary": "路由、狀態與資料流切得乾淨，方便長期迭代與協作。"
+        "subtitle": "Architecture",
+        "summary": "熟悉 Ngrx、Pinia、RxJS 等狀態管理，並接觸 Node.js（NestJS）與 Docker，讓前後端溝通更順暢。"
       },
       "components": {
         "title": "元件與互動",
-        "summary": "可重用元件、無障礙與細節打磨，例如日期選擇等獨立模組。"
+        "subtitle": "Components",
+        "summary": "打造可重用元件與獨立模組，部分並封裝發布至 NPM，用開源社群標準審視程式碼品質。"
       }
     },
     "groups": {
-      "framework": "框架／語言",
-      "ui": "樣式／UI",
-      "tooling": "工具"
+      "framework": {
+        "title": "核心前端框架",
+        "subtitle": "Modern Frontend"
+      },
+      "backend": {
+        "title": "後端與架構",
+        "subtitle": "Backend & Architecture"
+      },
+      "state": {
+        "title": "狀態管理與資料流",
+        "subtitle": "State Management"
+      },
+      "ui": {
+        "title": "樣式與 UI 系統",
+        "subtitle": "Styling & UI"
+      },
+      "database": {
+        "title": "資料庫",
+        "subtitle": "Database"
+      },
+      "tooling": {
+        "title": "開發工具",
+        "subtitle": "DevOps & Tools"
+      }
     }
   },
   "locale": {

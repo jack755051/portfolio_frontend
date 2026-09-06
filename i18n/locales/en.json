@@ -155,31 +155,58 @@
   },
   "skills": {
     "title": "Skills",
-    "lead": "Frontend-first — UI implementation, design systems, and maintainable component structure.",
-    "focusHeading": "Focus",
-    "groupsHeading": "Stack",
+    "lead": "Started with React, went deep on Angular at work, then moved into the Vue ecosystem — with enough backend and deployment exposure to collaborate smoothly across the stack.",
+    "focusHeading": "Core strengths",
+    "focusEyebrow": "Focus",
+    "groupsHeading": "Tech stack",
+    "groupsEyebrow": "Stack",
     "focus": {
       "ui": {
         "title": "UI implementation",
-        "summary": "Turning product needs into clear screens and interactions, with craft and speed."
+        "subtitle": "Interface Craft",
+        "summary": "Across React, Angular, and Vue 3 / Nuxt, turning product needs into clear screens and interactions."
       },
       "designSystem": {
         "title": "Design systems",
+        "subtitle": "Design Systems",
         "summary": "Tokens, components, and docs so UI stays consistent across pages and projects."
       },
       "architecture": {
         "title": "Frontend architecture",
-        "summary": "Clean routing, state, and data flow that stay easy to evolve and collaborate on."
+        "subtitle": "Architecture",
+        "summary": "Comfortable with Ngrx, Pinia, and RxJS for state, plus Node.js (NestJS) and Docker for smoother frontend/backend collaboration."
       },
       "components": {
         "title": "Components & interaction",
-        "summary": "Reusable pieces, accessibility, and polish — including standalone modules like date pickers."
+        "subtitle": "Components",
+        "summary": "Reusable components and standalone modules, some packaged and published to NPM against open-source standards."
       }
     },
     "groups": {
-      "framework": "Frameworks / languages",
-      "ui": "Styling / UI",
-      "tooling": "Tooling"
+      "framework": {
+        "title": "Core frontend frameworks",
+        "subtitle": "Modern Frontend"
+      },
+      "backend": {
+        "title": "Backend & architecture",
+        "subtitle": "Backend & Architecture"
+      },
+      "state": {
+        "title": "State management",
+        "subtitle": "State Management"
+      },
+      "ui": {
+        "title": "Styling & UI",
+        "subtitle": "Styling & UI"
+      },
+      "database": {
+        "title": "Database",
+        "subtitle": "Database"
+      },
+      "tooling": {
+        "title": "Dev tools",
+        "subtitle": "DevOps & Tools"
+      }
     }
   },
   "locale": {
