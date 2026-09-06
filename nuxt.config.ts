@@ -5,6 +5,9 @@ export default defineNuxtConfig({
   compatibilityDate: '2025-07-15',
   devtools: { enabled: true },
   modules: ['@nuxtjs/i18n', '@nuxtjs/color-mode'],
+  devServer: {
+    port: 3030,
+  },
   css: ['~/assets/css/main.css'],
   components: [
     {
@@ -18,6 +21,7 @@ export default defineNuxtConfig({
     classSuffix: '',
     preference: 'light',
     fallback: 'light',
+    storageKey: 'portfolio-color-mode',
   },
   i18n: {
     locales: [
