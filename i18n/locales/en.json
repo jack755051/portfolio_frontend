@@ -45,6 +45,8 @@
   },
   "experience": {
     "title": "Experience",
+    "lead": "About three years with Vue 3 / Nuxt and Angular, plus Node.js (NestJS) full-stack work. Currently at TPIsoftware on Bank of Taiwan SSR optimization and the ECP procurement platform; focused on TypeScript, maintainable architecture, and Docker delivery.",
+    "downloadResume": "Download resume",
     "active": "Current",
     "projectsLabel": "Projects",
     "projectsShowAll": "Show more",
