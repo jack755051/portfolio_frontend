@@ -1,0 +1,272 @@
+{
+  "source": "leetcode",
+  "username": "jack755051",
+  "updatedAt": "2026-09-07T08:08:47.174Z",
+  "stats": {
+    "easy": 48,
+    "medium": 9,
+    "hard": 1,
+    "total": 58
+  },
+  "problems": [
+    {
+      "source": "leetcode",
+      "id": "709",
+      "title": "To Lower Case",
+      "titleSlug": "to-lower-case",
+      "difficulty": "Easy",
+      "date": "2026-08-25",
+      "tags": [
+        "String"
+      ],
+      "url": "https://leetcode.com/problems/to-lower-case/"
+    },
+    {
+      "source": "leetcode",
+      "id": "819",
+      "title": "Most Common Word",
+      "titleSlug": "most-common-word",
+      "difficulty": "Easy",
+      "date": "2026-08-24",
+      "tags": [
+        "Array",
+        "Hash Table",
+        "String",
+        "Counting"
+      ],
+      "url": "https://leetcode.com/problems/most-common-word/"
+    },
+    {
+      "source": "leetcode",
+      "id": "217",
+      "title": "Contains Duplicate",
+      "titleSlug": "contains-duplicate",
+      "difficulty": "Easy",
+      "date": "2026-08-23",
+      "tags": [
+        "Array",
+        "Hash Table",
+        "Sorting"
+      ],
+      "url": "https://leetcode.com/problems/contains-duplicate/"
+    },
+    {
+      "source": "leetcode",
+      "id": "125",
+      "title": "Valid Palindrome",
+      "titleSlug": "valid-palindrome",
+      "difficulty": "Easy",
+      "date": "2026-08-23",
+      "tags": [
+        "Two Pointers",
+        "String"
+      ],
+      "url": "https://leetcode.com/problems/valid-palindrome/"
+    },
+    {
+      "source": "leetcode",
+      "id": "1929",
+      "title": "Concatenation of Array",
+      "titleSlug": "concatenation-of-array",
+      "difficulty": "Easy",
+      "date": "2026-08-23",
+      "tags": [
+        "Array",
+        "Simulation"
+      ],
+      "url": "https://leetcode.com/problems/concatenation-of-array/"
+    },
+    {
+      "source": "leetcode",
+      "id": "58",
+      "title": "Length of Last Word",
+      "titleSlug": "length-of-last-word",
+      "difficulty": "Easy",
+      "date": "2026-05-19",
+      "tags": [
+        "String"
+      ],
+      "url": "https://leetcode.com/problems/length-of-last-word/"
+    },
+    {
+      "source": "leetcode",
+      "id": "1716",
+      "title": "Calculate Money in Leetcode Bank",
+      "titleSlug": "calculate-money-in-leetcode-bank",
+      "difficulty": "Easy",
+      "date": "2026-05-19",
+      "tags": [
+        "Math"
+      ],
+      "url": "https://leetcode.com/problems/calculate-money-in-leetcode-bank/"
+    },
+    {
+      "source": "leetcode",
+      "id": "326",
+      "title": "Power of Three",
+      "titleSlug": "power-of-three",
+      "difficulty": "Easy",
+      "date": "2026-05-05",
+      "tags": [
+        "Math",
+        "Recursion"
+      ],
+      "url": "https://leetcode.com/problems/power-of-three/"
+    },
+    {
+      "source": "leetcode",
+      "id": "268",
+      "title": "Missing Number",
+      "titleSlug": "missing-number",
+      "difficulty": "Easy",
+      "date": "2026-05-05",
+      "tags": [
+        "Array",
+        "Hash Table",
+        "Math",
+        "Binary Search"
+      ],
+      "url": "https://leetcode.com/problems/missing-number/"
+    },
+    {
+      "source": "leetcode",
+      "id": "504",
+      "title": "Base 7",
+      "titleSlug": "base-7",
+      "difficulty": "Easy",
+      "date": "2026-05-05",
+      "tags": [
+        "Math",
+        "String"
+      ],
+      "url": "https://leetcode.com/problems/base-7/"
+    },
+    {
+      "source": "leetcode",
+      "id": "191",
+      "title": "Number of 1 Bits",
+      "titleSlug": "number-of-1-bits",
+      "difficulty": "Easy",
+      "date": "2026-05-01",
+      "tags": [
+        "Divide and Conquer",
+        "Bit Manipulation"
+      ],
+      "url": "https://leetcode.com/problems/number-of-1-bits/"
+    },
+    {
+      "source": "leetcode",
+      "id": "66",
+      "title": "Plus One",
+      "titleSlug": "plus-one",
+      "difficulty": "Easy",
+      "date": "2026-05-01",
+      "tags": [
+        "Array",
+        "Math"
+      ],
+      "url": "https://leetcode.com/problems/plus-one/"
+    },
+    {
+      "source": "leetcode",
+      "id": "2621",
+      "title": "Sleep",
+      "titleSlug": "sleep",
+      "difficulty": "Easy",
+      "date": "2026-04-22",
+      "tags": [],
+      "url": "https://leetcode.com/problems/sleep/"
+    },
+    {
+      "source": "leetcode",
+      "id": "80",
+      "title": "Remove Duplicates from Sorted Array II",
+      "titleSlug": "remove-duplicates-from-sorted-array-ii",
+      "difficulty": "Medium",
+      "date": "2026-03-29",
+      "tags": [
+        "Array",
+        "Two Pointers"
+      ],
+      "url": "https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/"
+    },
+    {
+      "source": "leetcode",
+      "id": "1",
+      "title": "Two Sum",
+      "titleSlug": "two-sum",
+      "difficulty": "Easy",
+      "date": "2026-03-24",
+      "tags": [
+        "Array",
+        "Hash Table"
+      ],
+      "url": "https://leetcode.com/problems/two-sum/"
+    },
+    {
+      "source": "leetcode",
+      "id": "27",
+      "title": "Remove Element",
+      "titleSlug": "remove-element",
+      "difficulty": "Easy",
+      "date": "2026-03-23",
+      "tags": [
+        "Array",
+        "Two Pointers"
+      ],
+      "url": "https://leetcode.com/problems/remove-element/"
+    },
+    {
+      "source": "leetcode",
+      "id": "136",
+      "title": "Single Number",
+      "titleSlug": "single-number",
+      "difficulty": "Easy",
+      "date": "2026-03-23",
+      "tags": [
+        "Array",
+        "Bit Manipulation"
+      ],
+      "url": "https://leetcode.com/problems/single-number/"
+    },
+    {
+      "source": "leetcode",
+      "id": "50",
+      "title": "Pow(x, n)",
+      "titleSlug": "powx-n",
+      "difficulty": "Medium",
+      "date": "2026-03-23",
+      "tags": [
+        "Math",
+        "Recursion"
+      ],
+      "url": "https://leetcode.com/problems/powx-n/"
+    },
+    {
+      "source": "leetcode",
+      "id": "69",
+      "title": "Sqrt(x)",
+      "titleSlug": "sqrtx",
+      "difficulty": "Easy",
+      "date": "2026-03-23",
+      "tags": [
+        "Math",
+        "Binary Search",
+        "Newton's Method"
+      ],
+      "url": "https://leetcode.com/problems/sqrtx/"
+    },
+    {
+      "source": "leetcode",
+      "id": "9",
+      "title": "Palindrome Number",
+      "titleSlug": "palindrome-number",
+      "difficulty": "Easy",
+      "date": "2026-03-21",
+      "tags": [
+        "Math"
+      ],
+      "url": "https://leetcode.com/problems/palindrome-number/"
+    }
+  ]
+}

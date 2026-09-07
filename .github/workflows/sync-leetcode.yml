@@ -1,0 +1,41 @@
+name: Sync LeetCode
+
+on:
+  schedule:
+    # 每 3 天 01:30 UTC（約台北時間 09:30）
+    - cron: '30 1 */3 * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Sync LeetCode data
+        env:
+          # 可選：Settings → Variables → LEETCODE_USERNAME
+          LEETCODE_USERNAME: ${{ vars.LEETCODE_USERNAME }}
+          LEETCODE_RECENT_LIMIT: '20'
+        run: node scripts/sync-leetcode.mjs
+
+      - name: Commit if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add content/practice/leetcode.json
+          if git diff --staged --quiet; then
+            echo "No LeetCode changes."
+          else
+            git commit -m "[chore]: 同步 LeetCode 刷題資料"
+            git push
+          fi

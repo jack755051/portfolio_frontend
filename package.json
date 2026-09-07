@@ -8,7 +8,8 @@
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
-    "sync:notes": "bash scripts/sync-obsidian-notes.sh"
+    "sync:notes": "bash scripts/sync-obsidian-notes.sh",
+    "sync:leetcode": "node scripts/sync-leetcode.mjs"
   },
   "dependencies": {
     "@lucide/vue": "^1.41.0",
