@@ -33,6 +33,7 @@ const { t } = useI18n()
                 :key="item.label"
                 :label="item.label"
                 :icon="item.icon"
+                :color="item.color"
               />
             </ul>
           </CardContent>

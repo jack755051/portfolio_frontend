@@ -12,6 +12,8 @@ export type SkillItem = {
   label: string
   /** simpleicons.org slug，例如 vuedotjs */
   icon: string
+  /** 可選：simpleicons 色碼（不含 #），例如 DD0031 */
+  color?: string
 }
 
 export type SkillGroup = {

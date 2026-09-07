@@ -6,7 +6,7 @@
       "subtitleKey": "skills.focus.ui.subtitle",
       "summaryKey": "skills.focus.ui.summary",
       "icon": "panels",
-      "highlights": ["React", "Angular", "Vue 3", "Nuxt"]
+      "highlights": ["Vue 3", "Nuxt", "Angular", "TypeScript"]
     },
     {
       "id": "design-system",
@@ -22,7 +22,7 @@
       "subtitleKey": "skills.focus.architecture.subtitle",
       "summaryKey": "skills.focus.architecture.summary",
       "icon": "layers",
-      "highlights": ["NgRx", "Pinia", "RxJS", "NestJS"]
+      "highlights": ["Pinia", "NgRx", "oRPC", "NestJS"]
     },
     {
       "id": "components",
@@ -40,10 +40,11 @@
       "subtitleKey": "skills.groups.framework.subtitle",
       "items": [
         { "label": "Vue 3", "icon": "vuedotjs" },
-        { "label": "Nuxt 3", "icon": "nuxt" },
-        { "label": "Angular", "icon": "angular" },
-        { "label": "React", "icon": "react" },
-        { "label": "TypeScript", "icon": "typescript" }
+        { "label": "Nuxt", "icon": "nuxt" },
+        { "label": "Angular", "icon": "angular", "color": "DD0031" },
+        { "label": "TypeScript", "icon": "typescript" },
+        { "label": "Next.js", "icon": "nextdotjs" },
+        { "label": "React", "icon": "react" }
       ]
     },
     {
@@ -53,8 +54,8 @@
       "items": [
         { "label": "Node.js", "icon": "nodedotjs" },
         { "label": "NestJS", "icon": "nestjs" },
-        { "label": "Docker", "icon": "docker" },
-        { "label": "Nx", "icon": "nx" }
+        { "label": "oRPC", "icon": "openapiinitiative" },
+        { "label": "Docker", "icon": "docker" }
       ]
     },
     {
@@ -63,9 +64,10 @@
       "subtitleKey": "skills.groups.state.subtitle",
       "items": [
         { "label": "Pinia", "icon": "pinia" },
+        { "label": "Pinia Colada", "icon": "pinia" },
         { "label": "RxJS", "icon": "reactivex" },
         { "label": "NgRx", "icon": "ngrx" },
-        { "label": "TanStack Query", "icon": "reactquery" }
+        { "label": "Zod", "icon": "zod" }
       ]
     },
     {
@@ -76,10 +78,7 @@
         { "label": "Tailwind CSS", "icon": "tailwindcss" },
         { "label": "Shadcn/UI", "icon": "shadcnui" },
         { "label": "Reka UI", "icon": "radixui" },
-        { "label": "Ant Design", "icon": "antdesign" },
-        { "label": "Angular Material", "icon": "materialdesign" },
-        { "label": "SCSS", "icon": "sass" },
-        { "label": "ECharts", "icon": "apacheecharts" }
+        { "label": "Angular Material", "icon": "materialdesign" }
       ]
     },
     {
@@ -87,9 +86,8 @@
       "titleKey": "skills.groups.database.title",
       "subtitleKey": "skills.groups.database.subtitle",
       "items": [
-        { "label": "MySQL", "icon": "mysql" },
-        { "label": "MongoDB", "icon": "mongodb" },
-        { "label": "PostgreSQL", "icon": "postgresql" }
+        { "label": "PostgreSQL", "icon": "postgresql" },
+        { "label": "MySQL", "icon": "mysql" }
       ]
     },
     {
@@ -98,11 +96,10 @@
       "subtitleKey": "skills.groups.tooling.subtitle",
       "items": [
         { "label": "Git", "icon": "git" },
+        { "label": "Docker", "icon": "docker" },
         { "label": "Vite", "icon": "vite" },
         { "label": "pnpm", "icon": "pnpm" },
-        { "label": "ESLint", "icon": "eslint" },
-        { "label": "NVM", "icon": "nvm" },
-        { "label": "Postman", "icon": "postman" }
+        { "label": "ESLint", "icon": "eslint" }
       ]
     }
   ]
