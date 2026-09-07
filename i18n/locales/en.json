@@ -6,7 +6,7 @@
     "experience": "Experience",
     "works": "Works",
     "notes": "Notes",
-    "leetcode": "LeetCode",
+    "practice": "Practice",
     "aria": "Main navigation"
   },
   "home": {
@@ -242,8 +242,30 @@
       "other": "Other"
     }
   },
-  "leetcode": {
-    "placeholder": "LeetCode page coming soon."
+  "practice": {
+    "title": "Practice",
+    "lead": "Solve progress and recent ACs by difficulty (LeetCode for now).",
+    "profile": "{'@'}{username}",
+    "updated": "Updated {date}",
+    "open": "Open problem",
+    "empty": "No recent solves in this difficulty.",
+    "stats": {
+      "total": "Total",
+      "easy": "Easy",
+      "medium": "Medium",
+      "hard": "Hard"
+    },
+    "tabs": {
+      "all": "All",
+      "Easy": "Easy",
+      "Medium": "Medium",
+      "Hard": "Hard"
+    },
+    "difficulty": {
+      "Easy": "Easy",
+      "Medium": "Medium",
+      "Hard": "Hard"
+    }
   },
   "skills": {
     "title": "Skills",

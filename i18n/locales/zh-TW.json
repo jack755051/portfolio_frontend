@@ -6,7 +6,7 @@
     "experience": "學經歷",
     "works": "作品",
     "notes": "筆記",
-    "leetcode": "刷題",
+    "practice": "刷題",
     "aria": "主要導覽"
   },
   "home": {
@@ -242,8 +242,30 @@
       "other": "其他"
     }
   },
-  "leetcode": {
-    "placeholder": "刷題頁建置中。"
+  "practice": {
+    "title": "刷題",
+    "lead": "解題紀錄與近期 AC，依難度分類瀏覽（目前同步 LeetCode）。",
+    "profile": "{'@'}{username}",
+    "updated": "更新於 {date}",
+    "open": "開啟題目",
+    "empty": "這個難度暫時沒有近期紀錄。",
+    "stats": {
+      "total": "總計",
+      "easy": "Easy",
+      "medium": "Medium",
+      "hard": "Hard"
+    },
+    "tabs": {
+      "all": "全部",
+      "Easy": "Easy",
+      "Medium": "Medium",
+      "Hard": "Hard"
+    },
+    "difficulty": {
+      "Easy": "Easy",
+      "Medium": "Medium",
+      "Hard": "Hard"
+    }
   },
   "skills": {
     "title": "技能",

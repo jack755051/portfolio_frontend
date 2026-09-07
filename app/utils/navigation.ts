@@ -10,5 +10,5 @@ export const mainNav: NavItem[] = [
   { to: '/experience', labelKey: 'nav.experience', labels: { 'zh-TW': '學經歷', en: 'Experience' } },
   { to: '/works', labelKey: 'nav.works', labels: { 'zh-TW': '作品', en: 'Works' } },
   { to: '/notes', labelKey: 'nav.notes', labels: { 'zh-TW': '筆記', en: 'Notes' } },
-  { to: '/leetcode', labelKey: 'nav.leetcode', labels: { 'zh-TW': '刷題', en: 'LeetCode' } },
+  { to: '/practice', labelKey: 'nav.practice', labels: { 'zh-TW': '刷題', en: 'Practice' } },
 ]
