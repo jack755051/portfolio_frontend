@@ -35,5 +35,11 @@ export default defineNuxtConfig({
   },
   vite: {
     plugins: [tailwindcss()]
-  }
+  },
+  nitro: {
+    prerender: {
+      // 語系切換是按鈕觸發 navigateTo，不是可爬的 <a>，需手動給第二語系入口
+      routes: ['/', '/en'],
+    },
+  },
 })
