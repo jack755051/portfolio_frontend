@@ -62,162 +62,153 @@
     "list": [
       {
         "type": "work",
-        "company": "昕力科技 (TPIsoftware)",
-        "role": "前端工程師",
-        "period": "2024.07 - 至今",
+        "company": "昕力資訊 (TPIsoftware)",
+        "role": "研發工程師",
+        "period": "2024.08 - 至今",
         "isActive": true,
-        "description": "專注於 AI 對話產品與企業級管理系統的前端開發。負責將複雜的 AI 邏輯轉化為直觀的對話介面，並構建高擴展性的後台架構。",
+        "description": "參與台灣銀行官網 SSR 效能優化、ECP 電子商務採購平台等專案，並獨立開發 AdminHub；亦維運 SysTalk 系列產品與高流量客服平台。",
         "projects": [
           {
-            "title": "Systalk AdminHub",
+            "title": "台灣銀行官網改版",
             "status": "active",
-            "summary": "金鑰管理後台，涵蓋權限與金鑰生命週期操作。",
+            "summary": "Angular 19／20 SSR 官網改版，聚焦核心網頁指標與 Hydration 穩定度。",
             "responsibilities": [
-              "實作權限流程與金鑰操作相關介面",
-              "對接後台 API，整理載入、錯誤與操作狀態",
-              "依設計系統擴充可重用表單與列表元件"
+              "透過 Bundle 動態拆分、首圖 Eager Loading 與 Skeleton 佔位改善 LCP／CLS",
+              "修復多項 SSR Hydration 錯誤與版面閃爍問題",
+              "重構多支存款頁面共用開戶聲明元件，降低重複程式碼"
             ],
-            "stack": ["Angular", "TypeScript", "NgRx", "Tailwind", "RxJS"]
+            "stack": ["Angular 19/20", "SSR", "TypeScript"]
           },
           {
-            "title": "Systalk.Audit",
+            "title": "ECP 電子商務採購平台後台",
             "status": "active",
-            "summary": "稽核系統前端，支援查詢、列表與詳情檢視。",
+            "summary": "Nuxt 4 + TypeScript 全新後台，採 oRPC Contract-first 與 Pinia Colada。",
             "responsibilities": [
-              "實作稽核查詢條件與結果列表",
-              "優化紀錄詳情的資訊層級與可讀性",
-              "處理大量資料下的載入與分頁互動"
+              "主導詢價／報價、請購單、繳費紀錄、醫材審核等列表與詳情模組",
+              "參與 Design System 共用 UI 元件庫建置",
+              "以 vee-validate + Zod 強化表單驗證與型別安全"
             ],
-            "stack": ["Angular", "TypeScript", "NgRx", "Tailwind"]
+            "stack": ["Nuxt 4", "TypeScript", "oRPC", "Pinia Colada", "Zod"]
           },
           {
-            "title": "全球人壽 ICR POC",
+            "title": "AdminHub 金鑰管理系統",
             "status": "done",
-            "summary": "保險 ICR 概念驗證，將 AI 流程收成可用的對話與管理畫面。",
+            "summary": "獨立開發的金鑰管理前端，涵蓋 RBAC、OTP 與容器化部署。",
             "responsibilities": [
-              "實作對話流程與狀態呈現",
-              "串接 POC 所需的管理與操作介面",
-              "快速迭代驗證互動假設"
+              "100% 負責前端架構與開發（Nuxt／Vue 3 + TypeScript）",
+              "導入 DTO／mapper 處理資料流，實作 RBAC 權限路由與 OTP 驗證",
+              "負責 Docker 容器化建置與 Nginx 部署"
             ],
-            "stack": ["Angular", "TypeScript", "RxJS"],
+            "stack": ["Nuxt", "Vue 3", "TypeScript", "Docker", "Nginx"]
+          },
+          {
+            "title": "SysTalk.ICR 字元辨識系統",
+            "status": "done",
+            "summary": "字元辨識產品前端（Nuxt／Vue 3），服務全球人壽等專案。",
+            "responsibilities": [
+              "處理 Streaming Upload 與大資料量匯出轉換",
+              "從零建置 Pagination、Wizard 等高複用 UI 元件",
+              "優化非同步辨識狀態的渲染效能"
+            ],
+            "stack": ["Nuxt", "Vue 3", "TypeScript"]
+          },
+          {
+            "title": "SysTalk.Chat 智能客服",
+            "status": "done",
+            "summary": "基於 Node-RED 二次開發的高流量智能客服平台。",
+            "responsibilities": [
+              "主題換膚與客製化擴充，維護微笑單車、元大銀行等平台",
+              "修復逾 80 個系統 Issue，提升穩定性",
+              "擴充工作流排程平台，處理複雜 API 路由與資料轉換"
+            ],
+            "stack": ["Node-RED"],
             "outcomes": [
-              "完成可演示的 POC 介面，支援後續需求討論"
+              "修復逾 80 個 Issue，顯著提升平台穩定性"
             ]
           },
           {
-            "title": "饗賓餐旅 Chatbot",
+            "title": "SysTalk.Audit AI 質檢系統",
             "status": "done",
-            "summary": "餐旅場景 chatbot，涵蓋對話體驗與營運設定介面。",
+            "summary": "AI 質檢後台（Nuxt／Vue 3），參與新安東京海上產險專案。",
             "responsibilities": [
-              "實作對話流與即時狀態呈現",
-              "建置後台設定相關畫面",
-              "對齊餐旅場景的操作節奏與文案"
+              "開發詞庫與 Prompt 設置模組，涵蓋文字與語音雙軌質檢",
+              "重構篩選器與彈窗等共用元件",
+              "提升後台操作穩定性"
             ],
-            "stack": ["Angular", "TypeScript", "RxJS"]
-          },
-          {
-            "title": "微笑單車 Chatbot",
-            "status": "done",
-            "summary": "共享運具 chatbot，支援對話體驗與營運端前端需求。",
-            "responsibilities": [
-              "實作對話介面與流程狀態",
-              "支援營運端所需的前端操作畫面",
-              "依場域需求調整互動細節"
-            ],
-            "stack": ["Angular", "TypeScript", "RxJS"]
+            "stack": ["Nuxt", "Vue 3", "TypeScript"]
           }
         ],
-        "stack": ["Angular", "TypeScript", "Tailwind", "Ngrx", "RxJS", "Docker", "Systalk.Flow"]
+        "stack": ["Angular", "Nuxt", "Vue 3", "TypeScript", "oRPC", "Docker", "Node-RED"]
       },
       {
         "type": "work",
         "company": "精誠資訊 (SYSTEX)",
-        "role": "前端工程師",
-        "period": "2024.04 - 2024.06",
+        "role": "高級程式分析師",
+        "period": "2024.05 - 2024.08",
         "isActive": false,
-        "description": "參與政府大型退休撫卹系統開發，專注於複雜表單邏輯處理與舊系統移轉。",
+        "description": "參與軍公教退休撫卹系統（Angular 18），專注後台 UI 重構、元件庫建置與後端介接。",
         "projects": [
           {
-            "title": "全國公教人員退休撫卹系統",
+            "title": "軍公教退休人員退撫系統",
             "status": "done",
-            "summary": "大型政府表單與流程系統，涵蓋複雜驗證與狀態切換。",
+            "summary": "後台 UI 重構與元件庫建置，統一混雜彈窗並提升可讀性。",
             "responsibilities": [
-              "實作複雜表單欄位驗證與流程狀態",
-              "參與舊系統移轉期間的前端對接",
-              "依法規／流程變更快速調整介面邏輯"
+              "統一麵包屑、側邊欄、表單等元件設計",
+              "將多種混雜 Modal 樣式整合為單一共用元件",
+              "抽離重複程式碼、拆分複雜函式，並與後端完成業務介接"
             ],
-            "stack": ["Angular", "TypeScript", "NgRx", "Tailwind"]
+            "stack": ["Angular 18", "TypeScript"],
+            "outcomes": [
+              "顯著提升代碼複用率與可讀性"
+            ]
           }
         ],
-        "stack": ["Angular", "TypeScript", "Tailwind", "Ngrx"]
+        "stack": ["Angular 18", "TypeScript"]
       },
       {
         "type": "work",
         "company": "哈瑪星科技 (HaMaStar)",
         "role": "前端工程師",
-        "period": "2021.11 - 2024.03",
+        "period": "2021.11 - 2024.04",
         "isActive": false,
-        "description": "擔任主力前端開發，跨足電子書商城、政府標案與系統維運。具備同時維護多個專案並快速切換 context 的能力。",
+        "description": "負責政府電子治理與 HTML5 電子書平台前端開發與維運，涵蓋大型業務系統與多出版社閱讀器。",
         "projects": [
           {
-            "title": "原住民族知識體系",
+            "title": "政府電子治理專案（原民會／北市府）",
             "status": "done",
-            "summary": "知識內容平台前端，支援列表、檢索與內容呈現。",
+            "summary": "原住民族住宅業務系統等政府專案前端與 API 串接。",
             "responsibilities": [
-              "實作內容列表、檢索與詳情頁",
-              "依標案需求迭代資訊架構與互動",
-              "維運期間處理跨瀏覽器與效能問題"
+              "負責「原住民族住宅業務系統」約 80% 的前端頁面與 RESTful API 串接",
+              "獨立開發基礎 UI 組件",
+              "處理複雜的檔案匯出／上傳邏輯與批次功能整合"
             ],
-            "stack": ["Angular", "TypeScript", "NgRx"]
+            "stack": ["Angular", "TypeScript"]
           },
           {
-            "title": "原住民族住宅業務補助系統",
+            "title": "HTML5 電子書平台",
             "status": "done",
-            "summary": "補助業務系統，涵蓋申請與審核相關流程介面。",
+            "summary": "龍騰、三民等 7 家出版社電子書閱讀器維護。",
             "responsibilities": [
-              "實作申請／審核表單與流程畫面",
-              "處理多步驟狀態與欄位依賴",
-              "對接業務規則調整介面行為"
+              "維護多出版社電子書閱讀器",
+              "解決跨瀏覽器與跨裝置相容性問題"
             ],
-            "stack": ["Angular", "TypeScript", "NgRx"]
-          },
-          {
-            "title": "台北市公報網",
-            "status": "done",
-            "summary": "公報資訊網站，著重公告閱讀、列表與搜尋。",
-            "responsibilities": [
-              "實作公告列表、詳情與搜尋介面",
-              "優化閱讀向的資訊層級與排版",
-              "配合機關需求調整發布與呈現流程"
-            ],
-            "stack": ["Angular", "TypeScript", "JavaScript"]
-          },
-          {
-            "title": "電子書系統（三民／奇鼎／龍騰）",
-            "status": "done",
-            "summary": "電子書商城與閱讀相關前端，服務多個客戶端。",
-            "responsibilities": [
-              "維運多客戶端電子書商城介面",
-              "依各品牌需求調整功能與樣式",
-              "處理閱讀與購買流程相關前端問題"
-            ],
-            "stack": ["Angular", "TypeScript", "JavaScript", "NgRx"],
+            "stack": ["HTML5", "JavaScript", "TypeScript"],
             "outcomes": [
-              "同時維護多專案並快速切換 context"
+              "同時支援 7 家出版社閱讀器維運"
             ]
           }
         ],
-        "stack": ["Angular", "Ngrx", "TypeScript", "JavaScript"]
+        "stack": ["Angular", "TypeScript", "JavaScript", "HTML5"]
       },
       {
         "type": "education",
-        "company": "資策會 (III)",
-        "role": "前端培訓生",
-        "period": "2021.05 - 2021.10",
+        "company": "國立東華大學",
+        "role": "民族社會工作學系 學士",
+        "period": "2014.09 - 2018.06",
         "isActive": false,
-        "description": "透過高強度的集訓，建立紮實的網頁開發基礎，包含 HTML/CSS/JS 核心觀念與框架入門。",
+        "description": "社工背景培養跨團隊溝通與需求釐清能力，後續轉職軟體工程。",
         "projects": [],
-        "stack": ["HTML/CSS", "JavaScript", "Vue.js Basics"]
+        "stack": []
       }
     ]
   },
@@ -271,7 +262,7 @@
   },
   "skills": {
     "title": "技能",
-    "lead": "從 React 入門，因工作深耕 Angular，再轉向 Vue 生態系；同時接觸後端與部署，讓前後端協作更順暢。",
+    "lead": "近 3 年以 Vue 3／Nuxt、Angular 為主，並有 Node.js（NestJS）全端與 Docker 部署經驗；業餘也用 Next.js／React 做獨立專案。",
     "focusHeading": "核心能力",
     "focusEyebrow": "Focus",
     "groupsHeading": "技術清單",
@@ -280,7 +271,7 @@
       "ui": {
         "title": "介面實作",
         "subtitle": "Interface Craft",
-        "summary": "跨 React、Angular、Vue 3／Nuxt 生態系，把產品需求收成清楚的畫面與互動。"
+        "summary": "以 Vue 3／Nuxt、Angular 為主，把產品需求收成清楚的畫面與互動；Next.js／React 用於獨立專案。"
       },
       "designSystem": {
         "title": "設計系統",
@@ -290,7 +281,7 @@
       "architecture": {
         "title": "前端架構",
         "subtitle": "Architecture",
-        "summary": "熟悉 Ngrx、Pinia、RxJS 等狀態管理，並接觸 Node.js（NestJS）與 Docker，讓前後端溝通更順暢。"
+        "summary": "熟悉 Pinia、NgRx、RxJS，近期也用 oRPC 與 Pinia Colada；並以 NestJS、Docker 讓前後端協作更順暢。"
       },
       "components": {
         "title": "元件與互動",

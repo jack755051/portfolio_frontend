@@ -63,161 +63,152 @@
       {
         "type": "work",
         "company": "TPIsoftware",
-        "role": "Frontend Engineer",
-        "period": "2024.07 - Present",
+        "role": "R&D Engineer",
+        "period": "2024.08 - Present",
         "isActive": true,
-        "description": "Focused on frontend development for AI conversational products and enterprise management systems. Responsible for transforming complex AI logic into intuitive conversational interfaces and building scalable admin architectures.",
+        "description": "Working on Bank of Taiwan site SSR performance, the ECP e-commerce procurement admin, and independently shipping AdminHub; also maintained SysTalk products and high-traffic chatbot platforms.",
         "projects": [
           {
-            "title": "Systalk AdminHub",
+            "title": "Bank of Taiwan Website Redesign",
             "status": "active",
-            "summary": "Key-management admin console covering permissions and key lifecycle actions.",
+            "summary": "Angular 19/20 SSR redesign focused on Core Web Vitals and hydration stability.",
             "responsibilities": [
-              "Built permission flows and key-operation UI",
-              "Integrated backend APIs with clear loading and error states",
-              "Extended reusable form and table components from the design system"
+              "Improved LCP/CLS via dynamic bundle splitting, eager LCP image loading, and skeleton placeholders",
+              "Fixed multiple SSR hydration errors and layout flicker issues",
+              "Refactored shared account-opening disclosure components across deposit pages to reduce duplication"
             ],
-            "stack": ["Angular", "TypeScript", "NgRx", "Tailwind", "RxJS"]
+            "stack": ["Angular 19/20", "SSR", "TypeScript"]
           },
           {
-            "title": "Systalk.Audit",
+            "title": "ECP E-Commerce Procurement Admin",
             "status": "active",
-            "summary": "Audit console frontend for filtering, listing, and inspecting records.",
+            "summary": "New Nuxt 4 + TypeScript admin with oRPC contract-first APIs and Pinia Colada.",
             "responsibilities": [
-              "Implemented audit filters and result tables",
-              "Improved detail-view information hierarchy and readability",
-              "Handled pagination and loading interactions for large datasets"
+              "Led list/detail modules for RFQ/quotes, purchase requests, payment records, and medical-material review",
+              "Contributed to the shared Design System UI library",
+              "Hardened forms with vee-validate + Zod for validation and type safety"
             ],
-            "stack": ["Angular", "TypeScript", "NgRx", "Tailwind"]
+            "stack": ["Nuxt 4", "TypeScript", "oRPC", "Pinia Colada", "Zod"]
           },
           {
-            "title": "TransGlobe Life ICR POC",
+            "title": "AdminHub Key Management",
             "status": "done",
-            "summary": "Insurance ICR proof-of-concept turning AI flows into usable chat and admin screens.",
+            "summary": "Independently built key-management frontend with RBAC, OTP, and containerized deploys.",
             "responsibilities": [
-              "Built conversation flow and state presentation",
-              "Shipped admin/ops surfaces needed for the POC",
-              "Iterated quickly to validate interaction assumptions"
+              "Owned 100% of frontend architecture and delivery (Nuxt / Vue 3 + TypeScript)",
+              "Introduced DTO/mapper data flow; implemented RBAC route guards and OTP verification",
+              "Handled Docker packaging and Nginx deployment"
             ],
-            "stack": ["Angular", "TypeScript", "RxJS"],
+            "stack": ["Nuxt", "Vue 3", "TypeScript", "Docker", "Nginx"]
+          },
+          {
+            "title": "SysTalk.ICR Character Recognition",
+            "status": "done",
+            "summary": "ICR product frontend (Nuxt / Vue 3) for projects such as TransGlobe Life.",
+            "responsibilities": [
+              "Handled streaming upload and large-volume export/transform flows",
+              "Built reusable Pagination and Wizard UI from scratch",
+              "Optimized rendering for asynchronous recognition states"
+            ],
+            "stack": ["Nuxt", "Vue 3", "TypeScript"]
+          },
+          {
+            "title": "SysTalk.Chat Intelligent Customer Service",
+            "status": "done",
+            "summary": "Node-RED-based customization for high-traffic chatbot platforms.",
+            "responsibilities": [
+              "Theming and custom extensions for platforms such as YouBike and Yuanta Bank",
+              "Resolved 80+ system issues to improve stability",
+              "Extended workflow scheduling with complex API routing and data transforms"
+            ],
+            "stack": ["Node-RED"],
             "outcomes": [
-              "Delivered a demo-ready POC UI to support follow-up discussions"
+              "Fixed 80+ issues and materially improved platform stability"
             ]
           },
           {
-            "title": "Feastogether Chatbot",
+            "title": "SysTalk.Audit AI QA",
             "status": "done",
-            "summary": "Hospitality chatbot covering conversation UX and ops settings UI.",
+            "summary": "AI QA admin (Nuxt / Vue 3) for Tokio Marine Newa projects.",
             "responsibilities": [
-              "Implemented conversation flow and live state UI",
-              "Built related backend settings screens",
-              "Aligned interaction pacing and copy with hospitality use cases"
+              "Built lexicon and Prompt modules covering text and voice QA flows",
+              "Refactored shared filters and dialogs",
+              "Improved backend-ops UI stability"
             ],
-            "stack": ["Angular", "TypeScript", "RxJS"]
-          },
-          {
-            "title": "YouBike Chatbot",
-            "status": "done",
-            "summary": "Shared-mobility chatbot supporting conversation UX and operational frontend needs.",
-            "responsibilities": [
-              "Implemented conversation UI and flow states",
-              "Supported operational frontend screens",
-              "Tuned interaction details for the mobility context"
-            ],
-            "stack": ["Angular", "TypeScript", "RxJS"]
+            "stack": ["Nuxt", "Vue 3", "TypeScript"]
           }
         ],
-        "stack": ["Angular", "TypeScript", "Tailwind", "Ngrx", "RxJS", "Docker", "Systalk.Flow"]
+        "stack": ["Angular", "Nuxt", "Vue 3", "TypeScript", "oRPC", "Docker", "Node-RED"]
       },
       {
         "type": "work",
         "company": "SYSTEX",
-        "role": "Frontend Engineer",
-        "period": "2024.04 - 2024.06",
+        "role": "Senior Programmer Analyst",
+        "period": "2024.05 - 2024.08",
         "isActive": false,
-        "description": "Participated in the development of large-scale government pension systems, focusing on complex form logic processing and legacy system migration.",
+        "description": "Contributed to the civil-service pension system (Angular 18) with admin UI refactoring, component library work, and backend integration.",
         "projects": [
           {
-            "title": "Public School Teachers Retirement System",
+            "title": "Civil Service Pension System",
             "status": "done",
-            "summary": "Large government form/workflow system with complex validation and state transitions.",
+            "summary": "Admin UI refactor and component library; unified mixed modal styles.",
             "responsibilities": [
-              "Implemented complex form validation and workflow states",
-              "Supported frontend integration during legacy migration",
-              "Adjusted UI logic quickly against process and policy changes"
+              "Unified breadcrumb, sidebar, and form component patterns",
+              "Consolidated multiple modal styles into one shared component",
+              "Deduplicated code, split complex functions, and shipped backend business integrations"
             ],
-            "stack": ["Angular", "TypeScript", "NgRx", "Tailwind"]
+            "stack": ["Angular 18", "TypeScript"],
+            "outcomes": [
+              "Improved reuse and readability across the admin UI"
+            ]
           }
         ],
-        "stack": ["Angular", "TypeScript", "Tailwind", "Ngrx"]
+        "stack": ["Angular 18", "TypeScript"]
       },
       {
         "type": "work",
         "company": "HaMaStar",
         "role": "Frontend Engineer",
-        "period": "2021.11 - 2024.03",
+        "period": "2021.11 - 2024.04",
         "isActive": false,
-        "description": "Served as the lead frontend developer, spanning e-book malls, government tenders, and system maintenance. Capable of maintaining multiple projects simultaneously and switching contexts quickly.",
+        "description": "Delivered government e-governance frontends and maintained HTML5 e-book readers across multiple publishers.",
         "projects": [
           {
-            "title": "Indigenous Knowledge System",
+            "title": "Government E-Governance (CIP / Taipei City)",
             "status": "done",
-            "summary": "Knowledge-content platform frontend with listing, search, and presentation.",
+            "summary": "Indigenous housing operations system and related government frontends with REST integration.",
             "responsibilities": [
-              "Built content lists, search, and detail pages",
-              "Iterated information architecture against tender requirements",
-              "Handled cross-browser and performance issues in maintenance"
+              "Owned ~80% of the Indigenous Housing Business System UI and REST API integration",
+              "Built foundational UI components independently",
+              "Handled complex file export/upload and batch workflows"
             ],
-            "stack": ["Angular", "TypeScript", "NgRx"]
+            "stack": ["Angular", "TypeScript"]
           },
           {
-            "title": "Indigenous Housing Subsidy System",
+            "title": "HTML5 E-Book Platform",
             "status": "done",
-            "summary": "Subsidy workflow system covering application and review UI.",
+            "summary": "E-book reader maintenance for seven publishers including Lungteng and San Min.",
             "responsibilities": [
-              "Implemented application/review forms and process screens",
-              "Handled multi-step state and field dependencies",
-              "Aligned UI behavior with evolving business rules"
+              "Maintained multi-publisher HTML5 readers",
+              "Resolved cross-browser and cross-device compatibility issues"
             ],
-            "stack": ["Angular", "TypeScript", "NgRx"]
-          },
-          {
-            "title": "Taipei City Gazette",
-            "status": "done",
-            "summary": "Public gazette site focused on reading, listing, and search.",
-            "responsibilities": [
-              "Built announcement lists, detail pages, and search UI",
-              "Improved reading-oriented hierarchy and layout",
-              "Adjusted publishing/presentation flows for agency needs"
-            ],
-            "stack": ["Angular", "TypeScript", "JavaScript"]
-          },
-          {
-            "title": "E-book Systems",
-            "status": "done",
-            "summary": "E-book mall and reading frontend across multiple client deployments.",
-            "responsibilities": [
-              "Maintained multi-client e-book mall interfaces",
-              "Adapted features and styling per brand requirements",
-              "Resolved frontend issues in reading and purchase flows"
-            ],
-            "stack": ["Angular", "TypeScript", "JavaScript", "NgRx"],
+            "stack": ["HTML5", "JavaScript", "TypeScript"],
             "outcomes": [
-              "Maintained multiple projects in parallel with fast context switching"
+              "Supported reader ops across seven publishers"
             ]
           }
         ],
-        "stack": ["Angular", "Ngrx", "TypeScript", "JavaScript"]
+        "stack": ["Angular", "TypeScript", "JavaScript", "HTML5"]
       },
       {
         "type": "education",
-        "company": "Institute for Information Industry (III)",
-        "role": "Frontend Trainee",
-        "period": "2021.05 - 2021.10",
+        "company": "National Dong Hwa University",
+        "role": "B.A. Ethnic Social Work",
+        "period": "2014.09 - 2018.06",
         "isActive": false,
-        "description": "Established a solid foundation in web development through high-intensity training, covering HTML/CSS/JS core concepts and framework basics.",
+        "description": "Social-work background that sharpened cross-team communication and requirements clarity before moving into software engineering.",
         "projects": [],
-        "stack": ["HTML/CSS", "JavaScript", "Vue.js Basics"]
+        "stack": []
       }
     ]
   },
@@ -271,7 +262,7 @@
   },
   "skills": {
     "title": "Skills",
-    "lead": "Started with React, went deep on Angular at work, then moved into the Vue ecosystem — with enough backend and deployment exposure to collaborate smoothly across the stack.",
+    "lead": "About three years focused on Vue 3 / Nuxt and Angular, with Node.js (NestJS) full-stack and Docker delivery; Next.js / React for independent projects.",
     "focusHeading": "Core strengths",
     "focusEyebrow": "Focus",
     "groupsHeading": "Tech stack",
@@ -280,7 +271,7 @@
       "ui": {
         "title": "UI implementation",
         "subtitle": "Interface Craft",
-        "summary": "Across React, Angular, and Vue 3 / Nuxt, turning product needs into clear screens and interactions."
+        "summary": "Primarily Vue 3 / Nuxt and Angular for product UI; Next.js / React for side projects."
       },
       "designSystem": {
         "title": "Design systems",
@@ -290,7 +281,7 @@
       "architecture": {
         "title": "Frontend architecture",
         "subtitle": "Architecture",
-        "summary": "Comfortable with Ngrx, Pinia, and RxJS for state, plus Node.js (NestJS) and Docker for smoother frontend/backend collaboration."
+        "summary": "Comfortable with Pinia, NgRx, and RxJS; recently oRPC and Pinia Colada, plus NestJS and Docker for smoother cross-stack work."
       },
       "components": {
         "title": "Components & interaction",
