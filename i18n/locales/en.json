@@ -45,7 +45,7 @@
   },
   "experience": {
     "title": "Experience",
-    "lead": "About three years with Vue 3 / Nuxt and Angular, plus Node.js (NestJS) full-stack work. Currently at TPIsoftware on Bank of Taiwan SSR optimization and the ECP procurement platform; focused on TypeScript, maintainable architecture, and Docker delivery.",
+    "lead": "Frontend architecture and maintainable interfaces are my focus — mainly Vue 3 / Nuxt and Angular over the past three years, currently building the Bank of Taiwan site and ECP procurement platform at TPIsoftware.",
     "downloadResume": "Download resume",
     "active": "Current",
     "projectsLabel": "Projects",
@@ -225,7 +225,7 @@
   },
   "notes": {
     "title": "Notes",
-    "lead": "Curated public notes, browsable by topic.",
+    "lead": "Notes from things I run into while building — the public ones, organized by topic.",
     "empty": "No notes in this category yet.",
     "backToList": "Back to notes",
     "categories": {

@@ -45,7 +45,7 @@
   },
   "experience": {
     "title": "學經歷",
-    "lead": "近 3 年以 Vue 3／Nuxt、Angular 為主，並有 Node.js（NestJS）全端經驗。現於昕力資訊參與台灣銀行官網 SSR 優化與 ECP 採購平台等專案；重視 TypeScript、可維護架構與 Docker 部署。",
+    "lead": "專注前端架構與可維護介面，近 3 年主力 Vue 3／Nuxt 與 Angular；現於昕力資訊打造台灣銀行官網與 ECP 採購平台。",
     "downloadResume": "下載履歷",
     "active": "在職中",
     "projectsLabel": "參與專案",
@@ -225,7 +225,7 @@
   },
   "notes": {
     "title": "筆記",
-    "lead": "精選可公開的技術筆記，依主題分類瀏覽。",
+    "lead": "開發過程中的筆記與心得，公開的部分依主題整理在這裡。",
     "empty": "這個分類暫時沒有筆記。",
     "backToList": "回筆記列表",
     "categories": {
