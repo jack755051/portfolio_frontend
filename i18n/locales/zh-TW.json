@@ -9,6 +9,9 @@
     "practice": "刷題",
     "aria": "主要導覽"
   },
+  "site": {
+    "views": "總瀏覽"
+  },
   "home": {
     "name": "Charlie",
     "role": "前端工程師",

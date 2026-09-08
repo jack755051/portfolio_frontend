@@ -9,6 +9,9 @@
     "practice": "Practice",
     "aria": "Main navigation"
   },
+  "site": {
+    "views": "Views"
+  },
   "home": {
     "name": "Charlie",
     "role": "Frontend Engineer",
