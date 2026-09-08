@@ -262,7 +262,7 @@
   },
   "skills": {
     "title": "Skills",
-    "lead": "About three years focused on Vue 3 / Nuxt and Angular, with Node.js (NestJS) full-stack and Docker delivery; Next.js / React for independent projects.",
+    "lead": "A breakdown of the tech I actually use, by focus area — from UI craft and design systems to architecture and components.",
     "focusHeading": "Core strengths",
     "focusEyebrow": "Focus",
     "groupsHeading": "Tech stack",
@@ -271,7 +271,7 @@
       "ui": {
         "title": "UI implementation",
         "subtitle": "Interface Craft",
-        "summary": "Primarily Vue 3 / Nuxt and Angular for product UI; Next.js / React for side projects."
+        "summary": "Turning product requirements into clear screens and interactions, with an eye for usability and fidelity."
       },
       "designSystem": {
         "title": "Design systems",
@@ -281,7 +281,7 @@
       "architecture": {
         "title": "Frontend architecture",
         "subtitle": "Architecture",
-        "summary": "Comfortable with Pinia, NgRx, and RxJS; recently oRPC and Pinia Colada, plus NestJS and Docker for smoother cross-stack work."
+        "summary": "Splitting modules, managing state and data flow, and integrating with the backend to keep collaboration smooth."
       },
       "components": {
         "title": "Components & interaction",

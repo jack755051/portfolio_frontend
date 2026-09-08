@@ -262,7 +262,7 @@
   },
   "skills": {
     "title": "技能",
-    "lead": "近 3 年以 Vue 3／Nuxt、Angular 為主，並有 Node.js（NestJS）全端與 Docker 部署經驗；業餘也用 Next.js／React 做獨立專案。",
+    "lead": "依專業領域拆解實際運用的技術，從介面實作、設計系統到前端架構與元件開發。",
     "focusHeading": "核心能力",
     "focusEyebrow": "Focus",
     "groupsHeading": "技術清單",
@@ -271,7 +271,7 @@
       "ui": {
         "title": "介面實作",
         "subtitle": "Interface Craft",
-        "summary": "以 Vue 3／Nuxt、Angular 為主，把產品需求收成清楚的畫面與互動；Next.js／React 用於獨立專案。"
+        "summary": "把產品需求收成清楚的畫面與互動，兼顧可用性與還原度。"
       },
       "designSystem": {
         "title": "設計系統",
@@ -281,7 +281,7 @@
       "architecture": {
         "title": "前端架構",
         "subtitle": "Architecture",
-        "summary": "熟悉 Pinia、NgRx、RxJS，近期也用 oRPC 與 Pinia Colada；並以 NestJS、Docker 讓前後端協作更順暢。"
+        "summary": "拆分模組、管理狀態與資料流，並串接後端把協作做順。"
       },
       "components": {
         "title": "元件與互動",
