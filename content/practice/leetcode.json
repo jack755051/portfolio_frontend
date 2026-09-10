@@ -1,14 +1,38 @@
 {
   "source": "leetcode",
   "username": "jack755051",
-  "updatedAt": "2026-09-07T08:08:47.174Z",
+  "updatedAt": "2026-09-10T06:33:13.368Z",
   "stats": {
-    "easy": 48,
+    "easy": 50,
     "medium": 9,
     "hard": 1,
-    "total": 58
+    "total": 60
   },
   "problems": [
+    {
+      "source": "leetcode",
+      "id": "182",
+      "title": "Duplicate Emails",
+      "titleSlug": "duplicate-emails",
+      "difficulty": "Easy",
+      "date": "2026-09-09",
+      "tags": [
+        "Database"
+      ],
+      "url": "https://leetcode.com/problems/duplicate-emails/"
+    },
+    {
+      "source": "leetcode",
+      "id": "175",
+      "title": "Combine Two Tables",
+      "titleSlug": "combine-two-tables",
+      "difficulty": "Easy",
+      "date": "2026-09-09",
+      "tags": [
+        "Database"
+      ],
+      "url": "https://leetcode.com/problems/combine-two-tables/"
+    },
     {
       "source": "leetcode",
       "id": "709",
@@ -241,32 +265,6 @@
         "Recursion"
       ],
       "url": "https://leetcode.com/problems/powx-n/"
-    },
-    {
-      "source": "leetcode",
-      "id": "69",
-      "title": "Sqrt(x)",
-      "titleSlug": "sqrtx",
-      "difficulty": "Easy",
-      "date": "2026-03-23",
-      "tags": [
-        "Math",
-        "Binary Search",
-        "Newton's Method"
-      ],
-      "url": "https://leetcode.com/problems/sqrtx/"
-    },
-    {
-      "source": "leetcode",
-      "id": "9",
-      "title": "Palindrome Number",
-      "titleSlug": "palindrome-number",
-      "difficulty": "Easy",
-      "date": "2026-03-21",
-      "tags": [
-        "Math"
-      ],
-      "url": "https://leetcode.com/problems/palindrome-number/"
     }
   ]
 }
