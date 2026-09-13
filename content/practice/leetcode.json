@@ -1,270 +1,251 @@
 {
   "source": "leetcode",
   "username": "jack755051",
-  "updatedAt": "2026-09-10T06:33:13.368Z",
+  "updatedAt": "2026-09-13T06:41:43.431Z",
   "stats": {
-    "easy": 50,
-    "medium": 9,
-    "hard": 1,
-    "total": 60
+    "easy": 68,
+    "medium": 15,
+    "hard": 3,
+    "total": 86
   },
   "problems": [
     {
       "source": "leetcode",
-      "id": "182",
-      "title": "Duplicate Emails",
-      "titleSlug": "duplicate-emails",
+      "id": "3870",
+      "title": "Count Commas in Range",
+      "titleSlug": "count-commas-in-range",
       "difficulty": "Easy",
-      "date": "2026-09-09",
-      "tags": [
-        "Database"
-      ],
-      "url": "https://leetcode.com/problems/duplicate-emails/"
-    },
-    {
-      "source": "leetcode",
-      "id": "175",
-      "title": "Combine Two Tables",
-      "titleSlug": "combine-two-tables",
-      "difficulty": "Easy",
-      "date": "2026-09-09",
-      "tags": [
-        "Database"
-      ],
-      "url": "https://leetcode.com/problems/combine-two-tables/"
-    },
-    {
-      "source": "leetcode",
-      "id": "709",
-      "title": "To Lower Case",
-      "titleSlug": "to-lower-case",
-      "difficulty": "Easy",
-      "date": "2026-08-25",
-      "tags": [
-        "String"
-      ],
-      "url": "https://leetcode.com/problems/to-lower-case/"
-    },
-    {
-      "source": "leetcode",
-      "id": "819",
-      "title": "Most Common Word",
-      "titleSlug": "most-common-word",
-      "difficulty": "Easy",
-      "date": "2026-08-24",
-      "tags": [
-        "Array",
-        "Hash Table",
-        "String",
-        "Counting"
-      ],
-      "url": "https://leetcode.com/problems/most-common-word/"
-    },
-    {
-      "source": "leetcode",
-      "id": "217",
-      "title": "Contains Duplicate",
-      "titleSlug": "contains-duplicate",
-      "difficulty": "Easy",
-      "date": "2026-08-23",
-      "tags": [
-        "Array",
-        "Hash Table",
-        "Sorting"
-      ],
-      "url": "https://leetcode.com/problems/contains-duplicate/"
-    },
-    {
-      "source": "leetcode",
-      "id": "125",
-      "title": "Valid Palindrome",
-      "titleSlug": "valid-palindrome",
-      "difficulty": "Easy",
-      "date": "2026-08-23",
-      "tags": [
-        "Two Pointers",
-        "String"
-      ],
-      "url": "https://leetcode.com/problems/valid-palindrome/"
-    },
-    {
-      "source": "leetcode",
-      "id": "1929",
-      "title": "Concatenation of Array",
-      "titleSlug": "concatenation-of-array",
-      "difficulty": "Easy",
-      "date": "2026-08-23",
-      "tags": [
-        "Array",
-        "Simulation"
-      ],
-      "url": "https://leetcode.com/problems/concatenation-of-array/"
-    },
-    {
-      "source": "leetcode",
-      "id": "58",
-      "title": "Length of Last Word",
-      "titleSlug": "length-of-last-word",
-      "difficulty": "Easy",
-      "date": "2026-05-19",
-      "tags": [
-        "String"
-      ],
-      "url": "https://leetcode.com/problems/length-of-last-word/"
-    },
-    {
-      "source": "leetcode",
-      "id": "1716",
-      "title": "Calculate Money in Leetcode Bank",
-      "titleSlug": "calculate-money-in-leetcode-bank",
-      "difficulty": "Easy",
-      "date": "2026-05-19",
+      "date": "2026-09-13",
       "tags": [
         "Math"
       ],
-      "url": "https://leetcode.com/problems/calculate-money-in-leetcode-bank/"
+      "url": "https://leetcode.com/problems/count-commas-in-range/"
     },
     {
       "source": "leetcode",
-      "id": "326",
-      "title": "Power of Three",
-      "titleSlug": "power-of-three",
-      "difficulty": "Easy",
-      "date": "2026-05-05",
+      "id": "3220",
+      "title": "Odd and Even Transactions",
+      "titleSlug": "odd-and-even-transactions",
+      "difficulty": "Medium",
+      "date": "2026-09-13",
       "tags": [
-        "Math",
-        "Recursion"
+        "Database"
       ],
-      "url": "https://leetcode.com/problems/power-of-three/"
+      "url": "https://leetcode.com/problems/odd-and-even-transactions/"
     },
     {
       "source": "leetcode",
-      "id": "268",
-      "title": "Missing Number",
-      "titleSlug": "missing-number",
-      "difficulty": "Easy",
-      "date": "2026-05-05",
+      "id": "262",
+      "title": "Trips and Users",
+      "titleSlug": "trips-and-users",
+      "difficulty": "Hard",
+      "date": "2026-09-13",
       "tags": [
-        "Array",
-        "Hash Table",
-        "Math",
-        "Binary Search"
+        "Database"
       ],
-      "url": "https://leetcode.com/problems/missing-number/"
+      "url": "https://leetcode.com/problems/trips-and-users/"
     },
     {
       "source": "leetcode",
-      "id": "504",
-      "title": "Base 7",
-      "titleSlug": "base-7",
-      "difficulty": "Easy",
-      "date": "2026-05-05",
+      "id": "185",
+      "title": "Department Top Three Salaries",
+      "titleSlug": "department-top-three-salaries",
+      "difficulty": "Hard",
+      "date": "2026-09-12",
       "tags": [
-        "Math",
-        "String"
+        "Database"
       ],
-      "url": "https://leetcode.com/problems/base-7/"
+      "url": "https://leetcode.com/problems/department-top-three-salaries/"
     },
     {
       "source": "leetcode",
-      "id": "191",
-      "title": "Number of 1 Bits",
-      "titleSlug": "number-of-1-bits",
-      "difficulty": "Easy",
-      "date": "2026-05-01",
+      "id": "184",
+      "title": "Department Highest Salary",
+      "titleSlug": "department-highest-salary",
+      "difficulty": "Medium",
+      "date": "2026-09-12",
       "tags": [
-        "Divide and Conquer",
-        "Bit Manipulation"
+        "Database"
       ],
-      "url": "https://leetcode.com/problems/number-of-1-bits/"
+      "url": "https://leetcode.com/problems/department-highest-salary/"
     },
     {
       "source": "leetcode",
-      "id": "66",
-      "title": "Plus One",
-      "titleSlug": "plus-one",
-      "difficulty": "Easy",
-      "date": "2026-05-01",
+      "id": "178",
+      "title": "Rank Scores",
+      "titleSlug": "rank-scores",
+      "difficulty": "Medium",
+      "date": "2026-09-12",
       "tags": [
-        "Array",
-        "Math"
+        "Database"
       ],
-      "url": "https://leetcode.com/problems/plus-one/"
+      "url": "https://leetcode.com/problems/rank-scores/"
     },
     {
       "source": "leetcode",
-      "id": "2621",
-      "title": "Sleep",
-      "titleSlug": "sleep",
+      "id": "626",
+      "title": "Exchange Seats",
+      "titleSlug": "exchange-seats",
+      "difficulty": "Medium",
+      "date": "2026-09-12",
+      "tags": [
+        "Database"
+      ],
+      "url": "https://leetcode.com/problems/exchange-seats/"
+    },
+    {
+      "source": "leetcode",
+      "id": "627",
+      "title": "Swap Sex of Employees",
+      "titleSlug": "swap-sex-of-employees",
       "difficulty": "Easy",
-      "date": "2026-04-22",
+      "date": "2026-09-12",
+      "tags": [
+        "Database"
+      ],
+      "url": "https://leetcode.com/problems/swap-sex-of-employees/"
+    },
+    {
+      "source": "leetcode",
+      "id": "620",
+      "title": "Not Boring Movies",
+      "titleSlug": "not-boring-movies",
+      "difficulty": "Easy",
+      "date": "2026-09-12",
+      "tags": [
+        "Database"
+      ],
+      "url": "https://leetcode.com/problems/not-boring-movies/"
+    },
+    {
+      "source": "leetcode",
+      "id": "619",
+      "title": "Biggest Single Number",
+      "titleSlug": "biggest-single-number",
+      "difficulty": "Easy",
+      "date": "2026-09-12",
+      "tags": [
+        "Database"
+      ],
+      "url": "https://leetcode.com/problems/biggest-single-number/"
+    },
+    {
+      "source": "leetcode",
+      "id": "610",
+      "title": "Triangle Judgement",
+      "titleSlug": "triangle-judgement",
+      "difficulty": "Easy",
+      "date": "2026-09-12",
+      "tags": [
+        "Database"
+      ],
+      "url": "https://leetcode.com/problems/triangle-judgement/"
+    },
+    {
+      "source": "leetcode",
+      "id": "607",
+      "title": "Sales Person",
+      "titleSlug": "sales-person",
+      "difficulty": "Easy",
+      "date": "2026-09-12",
+      "tags": [
+        "Database"
+      ],
+      "url": "https://leetcode.com/problems/sales-person/"
+    },
+    {
+      "source": "leetcode",
+      "id": "596",
+      "title": "Classes With at Least 5 Students",
+      "titleSlug": "classes-with-at-least-5-students",
+      "difficulty": "Easy",
+      "date": "2026-09-11",
+      "tags": [
+        "Database"
+      ],
+      "url": "https://leetcode.com/problems/classes-with-at-least-5-students/"
+    },
+    {
+      "source": "leetcode",
+      "id": "595",
+      "title": "Big Countries",
+      "titleSlug": "big-countries",
+      "difficulty": "Easy",
+      "date": "2026-09-11",
+      "tags": [
+        "Database"
+      ],
+      "url": "https://leetcode.com/problems/big-countries/"
+    },
+    {
+      "source": "leetcode",
+      "id": "586",
+      "title": "Customer Placing the Largest Number of Orders",
+      "titleSlug": "customer-placing-the-largest-number-of-orders",
+      "difficulty": "Easy",
+      "date": "2026-09-11",
+      "tags": [
+        "Database"
+      ],
+      "url": "https://leetcode.com/problems/customer-placing-the-largest-number-of-orders/"
+    },
+    {
+      "source": "leetcode",
+      "id": "584",
+      "title": "Find Customer Referee",
+      "titleSlug": "find-customer-referee",
+      "difficulty": "Easy",
+      "date": "2026-09-11",
+      "tags": [
+        "Database"
+      ],
+      "url": "https://leetcode.com/problems/find-customer-referee/"
+    },
+    {
+      "source": "leetcode",
+      "id": "3705",
+      "title": "Find Golden Hour Customers",
+      "titleSlug": "find-golden-hour-customers",
+      "difficulty": "Medium",
+      "date": "2026-09-11",
       "tags": [],
-      "url": "https://leetcode.com/problems/sleep/"
+      "url": "https://leetcode.com/problems/find-golden-hour-customers/"
     },
     {
       "source": "leetcode",
-      "id": "80",
-      "title": "Remove Duplicates from Sorted Array II",
-      "titleSlug": "remove-duplicates-from-sorted-array-ii",
-      "difficulty": "Medium",
-      "date": "2026-03-29",
-      "tags": [
-        "Array",
-        "Two Pointers"
-      ],
-      "url": "https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/"
-    },
-    {
-      "source": "leetcode",
-      "id": "1",
-      "title": "Two Sum",
-      "titleSlug": "two-sum",
+      "id": "3465",
+      "title": "Find Products with Valid Serial Numbers",
+      "titleSlug": "find-products-with-valid-serial-numbers",
       "difficulty": "Easy",
-      "date": "2026-03-24",
+      "date": "2026-09-11",
       "tags": [
-        "Array",
-        "Hash Table"
+        "Database"
       ],
-      "url": "https://leetcode.com/problems/two-sum/"
+      "url": "https://leetcode.com/problems/find-products-with-valid-serial-numbers/"
     },
     {
       "source": "leetcode",
-      "id": "27",
-      "title": "Remove Element",
-      "titleSlug": "remove-element",
+      "id": "3436",
+      "title": "Find Valid Emails",
+      "titleSlug": "find-valid-emails",
       "difficulty": "Easy",
-      "date": "2026-03-23",
+      "date": "2026-09-11",
       "tags": [
-        "Array",
-        "Two Pointers"
+        "Database"
       ],
-      "url": "https://leetcode.com/problems/remove-element/"
+      "url": "https://leetcode.com/problems/find-valid-emails/"
     },
     {
       "source": "leetcode",
-      "id": "136",
-      "title": "Single Number",
-      "titleSlug": "single-number",
+      "id": "577",
+      "title": "Employee Bonus",
+      "titleSlug": "employee-bonus",
       "difficulty": "Easy",
-      "date": "2026-03-23",
+      "date": "2026-09-10",
       "tags": [
-        "Array",
-        "Bit Manipulation"
+        "Database"
       ],
-      "url": "https://leetcode.com/problems/single-number/"
-    },
-    {
-      "source": "leetcode",
-      "id": "50",
-      "title": "Pow(x, n)",
-      "titleSlug": "powx-n",
-      "difficulty": "Medium",
-      "date": "2026-03-23",
-      "tags": [
-        "Math",
-        "Recursion"
-      ],
-      "url": "https://leetcode.com/problems/powx-n/"
+      "url": "https://leetcode.com/problems/employee-bonus/"
     }
   ]
 }
