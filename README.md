@@ -35,7 +35,7 @@ pnpm preview
 pnpm sync:notes
 ```
 
-排程：GitHub Actions `.github/workflows/sync-obsidian-notes.yml` 每 3 天跑一次。  
+排程：GitHub Actions `.github/workflows/sync-obsidian-notes.yml` **每天** 01:00 UTC（與刷題同步同為每日）。  
 請在 repo Secrets 設定 `OBSIDIAN_NOTES_TOKEN`（能讀 `obsidian_notes` 的 PAT；workflow 另需 write 本 repo 以 commit）。
 
 ## 刷題同步（Practice）
