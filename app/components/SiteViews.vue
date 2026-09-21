@@ -1,21 +1,34 @@
 <script setup lang="ts">
 /**
- * 全站總瀏覽：hits.dwyl.com（獨立 key，免申請）。
- * 不蒜子常出現異常大數字，已棄用。
- * 同一瀏覽器 session 只 +1 一次，避免 layout remount／HMR 灌水。
+ * 全站總瀏覽。
+ * 靜態 GitHub Pages 無後端；改打 hitscounter.dev（有 CORS），
+ * 從回傳 SVG 的 aria-label 解析數字（JSON API 常被擋）。
+ * 同一 session 只 +1 一次，避免 remount／HMR 灌水。
  */
 const { t, locale } = useI18n()
 
-const COUNTER_URL = 'https://hits.dwyl.com/jack755051/portfolio-sanring-dev.json'
-const SESSION_KEY = 'portfolio-site-views'
+const COUNTER_URL =
+  'https://hitscounter.dev/api/hit?url=https://portfolio.sanring.dev&label=Views&message_bg=%230d9488'
+const SESSION_KEY = 'portfolio-site-views-v2'
 
 const views = ref<number | null>(null)
-const failed = ref(false)
 
 const display = computed(() => {
   if (views.value == null) return '—'
   return new Intl.NumberFormat(locale.value).format(views.value)
 })
+
+function parseViewsFromSvg(svg: string): number | null {
+  // e.g. aria-label="12 / 34" or <title>12 / 34</title> → take the larger (total hits)
+  const labeled = svg.match(/aria-label="([^"]+)"/i)?.[1]
+    ?? svg.match(/<title>([^<]+)<\/title>/i)?.[1]
+  if (!labeled) return null
+
+  const nums = labeled.match(/\d+/g)?.map(Number) ?? []
+  const valid = nums.filter(n => Number.isFinite(n) && n >= 0)
+  if (!valid.length) return null
+  return Math.max(...valid)
+}
 
 onMounted(async () => {
   try {
@@ -30,15 +43,14 @@ onMounted(async () => {
 
     const res = await fetch(COUNTER_URL)
     if (!res.ok) throw new Error(`HTTP ${res.status}`)
-    const data = await res.json() as { message?: string }
-    const n = Number(data.message)
-    if (!Number.isFinite(n) || n < 0) throw new Error('invalid count')
+    const svg = await res.text()
+    const n = parseViewsFromSvg(svg)
+    if (n == null) throw new Error('invalid count')
 
     views.value = n
     sessionStorage.setItem(SESSION_KEY, String(n))
   }
   catch {
-    failed.value = true
     views.value = null
   }
 })
