@@ -46,7 +46,7 @@ pnpm sync:leetcode
 ```
 
 寫入 `content/practice/leetcode.json`（解題統計 + 近期 AC，schema 含 `source`）。  
-排程：`.github/workflows/sync-leetcode.yml` 每 3 天；可選 Variables `LEETCODE_USERNAME`。  
+排程：`.github/workflows/sync-leetcode.yml` **每天** 01:30 UTC；可選 Variables `LEETCODE_USERNAME`。  
 之後其他平台可同樣放到 `content/practice/<source>.json`。
 
 > 未登入 GraphQL 只能拿到**近期 AC（約 20）**與公開統計；完整題單需之後再擴 session。
