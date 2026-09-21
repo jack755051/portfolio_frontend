@@ -78,4 +78,23 @@ for path in "${PATHS[@]}"; do
 done
 
 echo "==> synced ${synced} notes → ${OUT_DIR#"$ROOT"/}"
+
+META_OUT="${META_OUT:-$ROOT/content/notes/meta.json}"
+USERNAME="${NOTES_USERNAME:-${REPO%%/*}}"
+UPDATED_AT="$(date -u +%Y-%m-%dT%H:%M:%SZ)"
+node -e '
+  const fs = require("node:fs")
+  const out = process.argv[1]
+  const data = {
+    source: "obsidian",
+    username: process.argv[2],
+    repo: process.argv[3],
+    updatedAt: process.argv[4],
+    count: Number(process.argv[5]) || 0,
+  }
+  fs.mkdirSync(require("node:path").dirname(out), { recursive: true })
+  fs.writeFileSync(out, `${JSON.stringify(data, null, 2)}\n`)
+' "$META_OUT" "$USERNAME" "$REPO" "$UPDATED_AT" "$synced"
+echo "==> wrote meta → ${META_OUT#"$ROOT"/} (@${USERNAME}, ${UPDATED_AT})"
+
 echo "done."

@@ -1,4 +1,6 @@
 <script setup lang="ts">
+import meta from '~~/content/notes/meta.json'
+
 const { t } = useI18n()
 
 const { data: notes } = await useAsyncData('notes-list', () =>
@@ -15,7 +17,10 @@ useSeoMeta({
 
 <template>
   <div>
-    <NotesIntro />
+    <NotesIntro
+      :username="meta.username"
+      :updated-at="meta.updatedAt"
+    />
     <NotesList :notes="notes ?? []" />
   </div>
 </template>

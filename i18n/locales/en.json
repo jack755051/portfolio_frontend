@@ -229,6 +229,8 @@
   "notes": {
     "title": "Notes",
     "lead": "Notes from things I run into while building — the public ones, organized by topic.",
+    "profile": "{'@'}{username}",
+    "updated": "Updated {date}",
     "empty": "No notes in this category yet.",
     "backToList": "Back to notes",
     "categories": {

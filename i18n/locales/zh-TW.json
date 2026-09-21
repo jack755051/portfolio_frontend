@@ -229,6 +229,8 @@
   "notes": {
     "title": "筆記",
     "lead": "開發過程中的筆記與心得，公開的部分依主題整理在這裡。",
+    "profile": "{'@'}{username}",
+    "updated": "更新於 {date}",
     "empty": "這個分類暫時沒有筆記。",
     "backToList": "回筆記列表",
     "categories": {
