@@ -8,7 +8,8 @@ const homePath = computed(() => {
 </script>
 
 <template>
-  <NuxtLink :to="homePath" class="text-sm font-semibold text-foreground">
+  <NuxtLink :to="homePath" class="inline-flex items-center gap-1.5 text-sm font-semibold text-foreground">
+    <img src="/logo.svg" alt="" aria-hidden="true" class="h-6 w-auto">
     {{ $t('brand') }}
   </NuxtLink>
 </template>
