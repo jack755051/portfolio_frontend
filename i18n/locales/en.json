@@ -39,6 +39,18 @@
       "haul": {
         "title": "Haul",
         "summary": "Product UI for logistics / haul workflows"
+      },
+      "techSite": {
+        "title": "Sanring",
+        "summary": "Angular SSR website and admin console backed by a .NET Web API"
+      },
+      "sso": {
+        "title": "Sanring SSO",
+        "summary": "Single sign-on and account service (OIDC IdP) shared across systems"
+      },
+      "middlePlatform": {
+        "title": "Sanring Monitoring Platform",
+        "summary": "Monitoring for site traffic, VPS service health, and alerts"
       }
     }
   },

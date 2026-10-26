@@ -39,6 +39,18 @@
       "haul": {
         "title": "Haul",
         "summary": "物流／載運相關產品介面"
+      },
+      "techSite": {
+        "title": "Sanring",
+        "summary": "Angular SSR 官網與後台管理系統，.NET Web API 後端"
+      },
+      "sso": {
+        "title": "Sanring SSO",
+        "summary": "統一登入與帳號服務（OIDC IdP），各系統共用帳號與權限"
+      },
+      "middlePlatform": {
+        "title": "Sanring 監控中台",
+        "summary": "網站流量、VPS 服務健康度與告警通知的監控平台"
       }
     }
   },

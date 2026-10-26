@@ -9,11 +9,27 @@ const props = defineProps<{
 const { t } = useI18n()
 const localePath = useLocalePath()
 
-const to = computed(() =>
-  props.work.external ? props.work.href : localePath(props.work.href),
+const to = computed(() => {
+  const href = props.work.href
+  if (!href) return undefined
+  return props.work.external ? href : localePath(href)
+})
+
+const NuxtLink = resolveComponent('NuxtLink')
+
+const linkAttrs = computed(() =>
+  to.value
+    ? {
+        to: to.value,
+        external: props.work.external,
+        target: props.work.external ? '_blank' : undefined,
+        rel: props.work.external ? 'noopener noreferrer' : undefined,
+      }
+    : {},
 )
 
 const hostLabel = computed(() => {
+  if (!props.work.href) return ''
   try {
     return new URL(props.work.href).host
   }
@@ -39,12 +55,11 @@ const openLabel = computed(() =>
 </script>
 
 <template>
-  <NuxtLink
-    :to="to"
-    :external="work.external"
-    :target="work.external ? '_blank' : undefined"
-    :rel="work.external ? 'noopener noreferrer' : undefined"
-    class="group grid overflow-hidden rounded-xl border border-border bg-card transition-colors hover:border-primary/40 sm:grid-cols-[minmax(0,1.45fr)_minmax(16rem,0.7fr)] sm:min-h-[13.5rem]"
+  <component
+    :is="to ? NuxtLink : 'div'"
+    v-bind="linkAttrs"
+    class="group grid overflow-hidden rounded-xl border border-border bg-card transition-colors sm:grid-cols-[minmax(0,1.45fr)_minmax(16rem,0.7fr)] sm:min-h-[13.5rem]"
+    :class="{ 'hover:border-primary/40': to }"
   >
     <!-- 左側縮圖：佔較大比例 -->
     <div class="relative aspect-[16/10] min-h-0 overflow-hidden bg-muted sm:aspect-auto sm:min-h-[13.5rem]">
@@ -52,7 +67,8 @@ const openLabel = computed(() =>
         v-if="work.image"
         :src="work.image"
         :alt="t(work.titleKey)"
-        class="absolute inset-0 size-full object-cover object-left-top transition-transform duration-500 group-hover:scale-[1.02]"
+        class="absolute inset-0 size-full object-cover object-left-top transition-transform duration-500"
+        :class="{ 'group-hover:scale-[1.02]': to }"
       >
       <div
         v-else
@@ -70,10 +86,13 @@ const openLabel = computed(() =>
     <div class="flex min-w-0 flex-col justify-between gap-4 px-5 py-5 sm:px-6 sm:py-6">
       <div class="flex flex-col gap-2">
         <div class="flex flex-col gap-1">
-          <h2 class="text-lg font-semibold tracking-tight text-foreground transition-colors group-hover:text-primary">
+          <h2
+            class="text-lg font-semibold tracking-tight text-foreground transition-colors"
+            :class="{ 'group-hover:text-primary': to }"
+          >
             {{ t(work.titleKey) }}
           </h2>
-          <p v-if="work.external" class="font-mono text-xs text-muted-foreground">
+          <p v-if="to && work.external" class="font-mono text-xs text-muted-foreground">
             {{ hostLabel }}
           </p>
         </div>
@@ -88,11 +107,11 @@ const openLabel = computed(() =>
             <Badge variant="secondary">{{ tech }}</Badge>
           </li>
         </ul>
-        <span class="inline-flex items-center gap-1 text-xs font-medium text-primary">
+        <span v-if="to" class="inline-flex items-center gap-1 text-xs font-medium text-primary">
           {{ openLabel }}
           <ArrowUpRight class="size-3.5 transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
         </span>
       </div>
     </div>
-  </NuxtLink>
+  </component>
 </template>

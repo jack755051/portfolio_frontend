@@ -32,6 +32,30 @@ export const works: WorkItem[] = [
     image: '/works/haul-sanring.png',
     stack: ['Nuxt', 'Product UI', 'Logistics'],
   },
+  {
+    slug: 'sanring-tech-site',
+    titleKey: 'home.works.techSite.title',
+    summaryKey: 'home.works.techSite.summary',
+    tone: 'primary',
+    image: '/works/sanring-tech-site.png',
+    stack: ['Angular SSR', '.NET', 'PostgreSQL'],
+  },
+  {
+    slug: 'sanring-sso',
+    titleKey: 'home.works.sso.title',
+    summaryKey: 'home.works.sso.summary',
+    tone: 'accent',
+    image: '/works/sanring-sso.png',
+    stack: ['.NET', 'OIDC', 'Angular'],
+  },
+  {
+    slug: 'sanring-middle-platform',
+    titleKey: 'home.works.middlePlatform.title',
+    summaryKey: 'home.works.middlePlatform.summary',
+    tone: 'muted',
+    image: '/works/sanring-middle-platform.png',
+    stack: ['.NET', 'Angular', 'ECharts'],
+  },
 ]
 
 
