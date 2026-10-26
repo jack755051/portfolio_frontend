@@ -36,6 +36,8 @@ export const works: WorkItem[] = [
     slug: 'sanring-tech-site',
     titleKey: 'home.works.techSite.title',
     summaryKey: 'home.works.techSite.summary',
+    href: 'https://www.sanring.com',
+    external: true,
     tone: 'primary',
     image: '/works/sanring-tech-site.png',
     stack: ['Angular SSR', '.NET', 'PostgreSQL'],
