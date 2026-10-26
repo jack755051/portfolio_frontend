@@ -2,6 +2,12 @@
 
 個人作品集網站,展示前端技能、學經歷、作品,以及刷題與技術筆記等持續學習紀錄。
 
+🔗 線上網址:<https://portfolio.sanring.dev/>
+
+## 部署
+
+部署於 GitHub Pages(自訂網域 `portfolio.sanring.dev`,設定於 `public/CNAME`)。推送到 `master` 時由 [`.github/workflows/deploy-pages.yml`](./.github/workflows/deploy-pages.yml) 自動執行 `pnpm generate`,並發布 `.output/public`。
+
 ## 技術棧
 - [Nuxt 3](https://nuxt.com/) + TypeScript
 - Tailwind CSS
