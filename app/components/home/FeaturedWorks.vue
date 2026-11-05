@@ -1,6 +1,9 @@
 <script setup lang="ts">
 const { t } = useI18n()
 const localePath = useLocalePath()
+
+const { data: works } = await useWorks()
+const featuredWorks = computed(() => works.value.filter(work => work.featured))
 </script>
 
 <template>

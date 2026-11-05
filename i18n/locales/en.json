@@ -25,38 +25,48 @@
       "eyebrow": "Featured",
       "heading": "Side projects",
       "subtitle": "Independent builds, published under the Sanring org.",
-      "viewAll": "All works",
-      "open": "View project",
-      "openExternal": "Visit site",
-      "ui": {
-        "title": "UI Playground",
-        "summary": "UI components and design-system playground"
-      },
-      "datePicker": {
-        "title": "Date Picker",
-        "summary": "Standalone date picker component"
-      },
-      "haul": {
-        "title": "Haul",
-        "summary": "Product UI for logistics / haul workflows"
-      },
-      "techSite": {
-        "title": "Sanring",
-        "summary": "Angular SSR website and admin console backed by a .NET Web API"
-      },
-      "sso": {
-        "title": "Sanring SSO",
-        "summary": "Single sign-on and account service (OIDC IdP) shared across systems"
-      },
-      "middlePlatform": {
-        "title": "Sanring Monitoring Platform",
-        "summary": "Monitoring for site traffic, VPS service health, and alerts"
-      }
+      "viewAll": "All works"
     }
   },
   "works": {
     "title": "Works",
-    "lead": "Independent side projects, published under my Sanring GitHub org."
+    "lead": "Personal side projects and projects I have worked on professionally.",
+    "viewDetail": "View details",
+    "backToList": "Back to works",
+    "empty": "No works yet.",
+    "kind": {
+      "side-project": "Side projects",
+      "work": "Work projects"
+    },
+    "status": {
+      "live": "Live",
+      "wip": "In progress",
+      "archived": "Archived"
+    },
+    "visibility": {
+      "private": "Internal system"
+    },
+    "links": {
+      "demo": "Visit site",
+      "repo": "GitHub",
+      "docs": "Docs"
+    },
+    "facts": {
+      "role": "Role",
+      "period": "Period",
+      "team": "Team",
+      "stack": "Stack"
+    },
+    "detail": {
+      "highlights": "Highlights",
+      "gallery": "Screenshots",
+      "present": "Present",
+      "prev": "Previous",
+      "next": "Next",
+      "pager": "Work navigation",
+      "privateNotice": "Internal system with no public URL — screenshots only",
+      "fallbackNotice": "This work has no English write-up yet; showing the Chinese version."
+    }
   },
   "experience": {
     "title": "Experience",
@@ -92,7 +102,11 @@
               "Fixed multiple SSR hydration errors and layout flicker issues",
               "Refactored shared account-opening disclosure components across deposit pages to reduce duplication"
             ],
-            "stack": ["Angular 19/20", "SSR", "TypeScript"]
+            "stack": [
+              "Angular 19/20",
+              "SSR",
+              "TypeScript"
+            ]
           },
           {
             "title": "ECP E-Commerce Procurement Admin",
@@ -103,7 +117,13 @@
               "Contributed to the shared Design System UI library",
               "Hardened forms with vee-validate + Zod for validation and type safety"
             ],
-            "stack": ["Nuxt 4", "TypeScript", "oRPC", "Pinia Colada", "Zod"]
+            "stack": [
+              "Nuxt 4",
+              "TypeScript",
+              "oRPC",
+              "Pinia Colada",
+              "Zod"
+            ]
           },
           {
             "title": "AdminHub Key Management",
@@ -114,7 +134,13 @@
               "Introduced DTO/mapper data flow; implemented RBAC route guards and OTP verification",
               "Handled Docker packaging and Nginx deployment"
             ],
-            "stack": ["Nuxt", "Vue 3", "TypeScript", "Docker", "Nginx"]
+            "stack": [
+              "Nuxt",
+              "Vue 3",
+              "TypeScript",
+              "Docker",
+              "Nginx"
+            ]
           },
           {
             "title": "SysTalk.ICR Character Recognition",
@@ -125,7 +151,11 @@
               "Built reusable Pagination and Wizard UI from scratch",
               "Optimized rendering for asynchronous recognition states"
             ],
-            "stack": ["Nuxt", "Vue 3", "TypeScript"]
+            "stack": [
+              "Nuxt",
+              "Vue 3",
+              "TypeScript"
+            ]
           },
           {
             "title": "SysTalk.Chat Intelligent Customer Service",
@@ -136,7 +166,9 @@
               "Resolved 80+ system issues to improve stability",
               "Extended workflow scheduling with complex API routing and data transforms"
             ],
-            "stack": ["Node-RED"],
+            "stack": [
+              "Node-RED"
+            ],
             "outcomes": [
               "Fixed 80+ issues and materially improved platform stability"
             ]
@@ -150,10 +182,22 @@
               "Refactored shared filters and dialogs",
               "Improved backend-ops UI stability"
             ],
-            "stack": ["Nuxt", "Vue 3", "TypeScript"]
+            "stack": [
+              "Nuxt",
+              "Vue 3",
+              "TypeScript"
+            ]
           }
         ],
-        "stack": ["Angular", "Nuxt", "Vue 3", "TypeScript", "oRPC", "Docker", "Node-RED"]
+        "stack": [
+          "Angular",
+          "Nuxt",
+          "Vue 3",
+          "TypeScript",
+          "oRPC",
+          "Docker",
+          "Node-RED"
+        ]
       },
       {
         "type": "work",
@@ -172,13 +216,19 @@
               "Consolidated multiple modal styles into one shared component",
               "Deduplicated code, split complex functions, and shipped backend business integrations"
             ],
-            "stack": ["Angular 18", "TypeScript"],
+            "stack": [
+              "Angular 18",
+              "TypeScript"
+            ],
             "outcomes": [
               "Improved reuse and readability across the admin UI"
             ]
           }
         ],
-        "stack": ["Angular 18", "TypeScript"]
+        "stack": [
+          "Angular 18",
+          "TypeScript"
+        ]
       },
       {
         "type": "work",
@@ -197,7 +247,10 @@
               "Built foundational UI components independently",
               "Handled complex file export/upload and batch workflows"
             ],
-            "stack": ["Angular", "TypeScript"]
+            "stack": [
+              "Angular",
+              "TypeScript"
+            ]
           },
           {
             "title": "HTML5 E-Book Platform",
@@ -207,13 +260,22 @@
               "Maintained multi-publisher HTML5 readers",
               "Resolved cross-browser and cross-device compatibility issues"
             ],
-            "stack": ["HTML5", "JavaScript", "TypeScript"],
+            "stack": [
+              "HTML5",
+              "JavaScript",
+              "TypeScript"
+            ],
             "outcomes": [
               "Supported reader ops across seven publishers"
             ]
           }
         ],
-        "stack": ["Angular", "TypeScript", "JavaScript", "HTML5"]
+        "stack": [
+          "Angular",
+          "TypeScript",
+          "JavaScript",
+          "HTML5"
+        ]
       },
       {
         "type": "education",
